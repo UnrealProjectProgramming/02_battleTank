@@ -73,3 +73,7 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Added from old gitrepo
+battleTank/Content/StarterContent/
+battleTank/Intermediate/Config/
