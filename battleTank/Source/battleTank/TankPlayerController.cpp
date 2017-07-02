@@ -12,10 +12,7 @@ void ATankPlayerController::BeginPlay()
 	{
 		UE_LOG(LogTemp, Warning, TEXT("No Tank Found"))
 	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("%s "), *GetPawn()->GetName())
-	}
+	
 	
 }
 
