@@ -32,7 +32,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 	FVector HitLocation;
 	if (GetSightRayHitLocation(HitLocation)) // Is going to ray trace !
 	{
-		//UE_LOG(LogTemp, Warning, TEXT("Look Direction : %s"), *HitLocation.ToString());
+		UE_LOG(LogTemp, Warning, TEXT("Look Direction : %s"), *HitLocation.ToString());
 		//TODO , tell controlledtank to aim at this point
 	}
 
@@ -41,12 +41,23 @@ void ATankPlayerController::AimTowardsCrosshair()
 //GetWorld Location of linetrace crosshair
 bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
 {
-	//Find crosshair position 
 	int32 ViewportSizeX, ViewportSizeY;
 	GetViewportSize(ViewportSizeX, ViewportSizeY);
 	FVector2D ScreenLocation = FVector2D(ViewportSizeX * CrossHairXLocation, ViewportSizeY * CrossHairYLocation);
-	UE_LOG(LogTemp, Warning, TEXT("ScreenLocation : %s"), *ScreenLocation.ToString());
+	FVector LookDirection;
 	//"De-project" The screen postion of the crosshair to a world direction
-	//line-trace along this look Direction , and see what we hit "up to a max Range"
+	if (GetLookDirection(ScreenLocation, LookDirection))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Look Direction : %s"), *LookDirection.ToString());
+	}
+
+	//line-trace along this LookDirection , and see what we hit "up to a max Range"
 	return true;
+}
+
+bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const
+{
+	//Find crosshair position 
+	FVector CameraWorldLocation;//To Be Discarted but must be passed in 
+	return DeprojectScreenPositionToWorld(ScreenLocation.X, ScreenLocation.Y, CameraWorldLocation, LookDirection);	
 }

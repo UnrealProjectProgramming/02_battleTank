@@ -28,5 +28,7 @@ public:
 private:
 	//Moving the Tank barrel Towards what the Crosshair interesects in the World
 	void AimTowardsCrosshair();
+	void GetLookDirection() const;
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
+	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
 };
