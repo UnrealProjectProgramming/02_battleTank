@@ -19,10 +19,25 @@ void ATankAIController::BeginPlay()
 	{
 		UE_LOG(LogTemp, Warning, TEXT("AI Found The :  %s"), *(AIFindingPlayer->GetName()));
 	}
-
+	
 }
 
+void ATankAIController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	AimAtPlayerTank();
+}
 
+void ATankAIController::AimAtPlayerTank()
+{
+	if(GetPlayerTank())
+	{
+		auto OurTankLocation = GetPlayerTank()->GetActorLocation();
+		auto AITank = GetName();
+		GetAIControlledTank()->AimAt(OurTankLocation);
+	}
+	else { return; }
+}
 
 ATank* ATankAIController::GetAIControlledTank() const
 {
