@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "battleTank.h"
+#include "TankBarrel.h"
 #include "TankAimingComponent.h"
 
 
@@ -14,28 +15,9 @@ UTankAimingComponent::UTankAimingComponent()
 	// ...
 }
 
-void UTankAimingComponent::SetBarrelReference(UStaticMeshComponent* BarrelToSet)
+void UTankAimingComponent::SetBarrelReference(UTankBarrel* BarrelToSet)
 {
 	Barrel = BarrelToSet;
-}
-
-
-// Called when the game starts
-void UTankAimingComponent::BeginPlay()
-{
-	Super::BeginPlay();
-
-	// ...
-	
-}
-
-
-// Called every frame
-void UTankAimingComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
 }
 
 void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
@@ -46,26 +28,34 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 	FVector EndLocation = HitLocation;
 
 	//Calculate OutLaunchVelocity
-	bool bCalculateProjectileVelocity = UGameplayStatics::SuggestProjectileVelocity(
+	bool bCalculateProjectileVelocity = UGameplayStatics::SuggestProjectileVelocity
+	(
 		this,
 		OutLaunchVelocity,
 		StartLocation,
 		EndLocation,
 		LaunchSpeed,
-		false,
-		0.0f,
-		0.0f,
 		ESuggestProjVelocityTraceOption::DoNotTrace
-		);
+	);
 
 	if (bCalculateProjectileVelocity)
 	{
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
-		UE_LOG(LogTemp, Warning, TEXT("Aiming At %s"), *AimDirection.ToString())
+		MoveBarrelTowards(AimDirection);
 	}
 	else
 	{
 		return;
 	}
 
+}
+
+void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
+{
+	auto BarrelRotator = Barrel->GetForwardVector().Rotation();
+	auto AimAsRotator = AimDirection.Rotation();
+	auto DeltaRotator = AimAsRotator - BarrelRotator;
+	UE_LOG(LogTemp, Warning, TEXT("AimRotator:  %s"), *AimAsRotator.ToString());
+
+	Barrel->Elevate(5);
 }
