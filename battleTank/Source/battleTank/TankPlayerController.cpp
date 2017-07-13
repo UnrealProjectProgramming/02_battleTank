@@ -35,7 +35,6 @@ void ATankPlayerController::AimTowardsCrosshair()
 	{
 		GetPossessedControlledTank()->AimAt(HitLocation);
 	}
-
 }
 
 //GetWorld Location of linetrace crosshair
@@ -51,7 +50,6 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& HitLocation) const
 		//line-trace along this LookDirection , and see what we hit "up to a max Range"
 		GetLookVectorHitLocation(LookDirection, HitLocation);
 	}
-
 	return true;
 }
 
