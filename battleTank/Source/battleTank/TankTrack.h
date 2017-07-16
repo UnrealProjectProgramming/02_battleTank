@@ -19,4 +19,7 @@ public:
 	void SetThrottle(float Throttle);
 	
 	//TODO , Clamp Actualy Throttle values so player can't over-ride (in The Input System)
+
+	UPROPERTY(EditDefaultsOnly)
+	float TrackMaxDrivingForce = 400000.0f;
 };
