@@ -21,4 +21,6 @@ public:
 private:
 	void AimAtPlayerTank();
 
+	UPROPERTY(EditDefaultsOnly)
+	float AcceptanceRadius = 3000.0f;
 };

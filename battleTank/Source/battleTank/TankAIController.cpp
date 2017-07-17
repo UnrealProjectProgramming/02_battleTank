@@ -24,10 +24,11 @@ void ATankAIController::AimAtPlayerTank()
 	{
 		auto GetAIControlledTank = Cast<ATank>(GetPawn());
 		auto OurTankLocation = PlayerTank->GetActorLocation();
-		auto AITank = GetName();
-		GetAIControlledTank->AimAt(OurTankLocation);
 
-		GetAIControlledTank->Fire(); //TODO Limit Firing Rate
+		MoveToActor(PlayerTank, AcceptanceRadius);
+
+		GetAIControlledTank->AimAt(OurTankLocation);
+		GetAIControlledTank->Fire(); 
 	}
 	else { return; }
 }
