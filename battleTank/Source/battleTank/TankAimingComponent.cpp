@@ -14,6 +14,8 @@ UTankAimingComponent::UTankAimingComponent()
 	PrimaryComponentTick.bCanEverTick = false; 
 
 	// ...
+
+	
 }
 
 void UTankAimingComponent::SetBarrelReference(UTankBarrel* BarrelToSet)
