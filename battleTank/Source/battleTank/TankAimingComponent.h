@@ -27,7 +27,8 @@ public:
 	void Initialise(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);
 
 public:	
-	void AimAt(FVector WorldSpaceAim, float LaunchSpeed);
+	void AimAt(FVector HitLocation);
+
 	void MoveBarrelTowards(FVector);
 
 	UPROPERTY(BlueprintReadOnly, Category = "State")
@@ -36,4 +37,7 @@ public:
 private:
 	UTankBarrel* Barrel = nullptr;
 	UTankTurret* Turret = nullptr;	
+
+	UPROPERTY(EditAnywhere, Category = "Firing")
+	float LaunchSpeed = 100000.0f; // Sensiable Starting Value for 1000m/s
 };

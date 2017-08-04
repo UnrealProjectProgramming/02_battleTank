@@ -11,8 +11,6 @@ class UTankBarrel;
 class UTankTurret;
 class AProjectile;
 
-class UTankAimingComponent;
-
 UCLASS()
 class BATTLETANK_API ATank : public APawn
 {
@@ -23,22 +21,10 @@ public:
 	ATank();
 	virtual void BeginPlay() override;
 
-	void AimAt(FVector HitLocation);
-
-
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	void Fire();
 
 	UTankBarrel* Barrel = nullptr;
-
-
-protected:
-
-
-	UPROPERTY(BlueprintReadOnly)
-	UTankAimingComponent* TankAimingComponent = nullptr;
-	
-
 
 private:
 	UPROPERTY(EditAnywhere, Category = "Firing")
