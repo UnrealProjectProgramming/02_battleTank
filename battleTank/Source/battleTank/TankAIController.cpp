@@ -30,7 +30,7 @@ void ATankAIController::AimAtPlayerTank()
 
 	auto AimingComponent = ControlledTank->FindComponentByClass<UTankAimingComponent>();
 	AimingComponent->AimAt(OurTankLocation);
-	//TODO fix firign
-	//AimingComponent->Fire();
+
+	AimingComponent->Fire(); //TODO Limit firing rate
 }
 
