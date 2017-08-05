@@ -17,9 +17,11 @@ public:
 	virtual void BeginPlay() override;
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+protected:
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float AcceptanceRadius = 8000.0f;
+
 private:
 	void AimAtPlayerTank();
 
-	UPROPERTY(EditDefaultsOnly)
-	float AcceptanceRadius = 3000.0f;
 };
