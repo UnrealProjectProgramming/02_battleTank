@@ -1,5 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
+battleTank.VC.VC.opendb
 
 # Visual Studio 2015 database file
 *.VC.db
@@ -75,5 +76,4 @@ Intermediate/*
 DerivedDataCache/*
 
 # Added from old gitrepo
-battleTank/Content/StarterContent/
 battleTank/Intermediate/Config/
