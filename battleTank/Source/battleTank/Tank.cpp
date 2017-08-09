@@ -19,6 +19,7 @@ void ATank::BeginPlay()
 {
 	Super::BeginPlay();
 
+	CurrentHealth = StartingHealth;
 }
 
 // This is the actor damage handler.   

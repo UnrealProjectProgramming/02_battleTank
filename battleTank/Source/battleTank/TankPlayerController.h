@@ -22,6 +22,9 @@ protected:
 	void FoundAImingComponent(UTankAimingComponent* AimCompRef);
 
 public:
+	UFUNCTION()
+	void OnPlayerTankDeath();
+
 
 	virtual void BeginPlay() override;
 
@@ -41,4 +44,8 @@ private:
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
 	bool GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
+
+	
+	virtual void SetPawn(APawn* InPawn) override;
+
 };

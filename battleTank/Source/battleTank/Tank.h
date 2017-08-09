@@ -32,8 +32,6 @@ protected:
 	int32 StartingHealth = 100;
 
 	UPROPERTY(VisibleAnywhere, Category = "Setup")
-	int32 CurrentHealth = StartingHealth;
-private:
-
+	int32 CurrentHealth;
 
 };
