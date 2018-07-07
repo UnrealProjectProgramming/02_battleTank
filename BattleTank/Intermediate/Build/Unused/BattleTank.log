@@ -1,0 +1,34 @@
+﻿  Performing full C++ include scan (hot reloading a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading BattleTankEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Performing 25 actions (9 in parallel)
+  PCH.BattleTank.cpp
+  BattleTank.init.gen.cpp
+  BattleTankGameMode.gen.cpp
+  TankPlayerController.gen.cpp
+  TankMovementComponent.gen.cpp
+  TankAimingComponent.gen.cpp
+  TankAIController.gen.cpp
+  Tank.gen.cpp
+  Projectile.gen.cpp
+  TankBarrel.gen.cpp
+  TankTurret.cpp
+  TankTrack.cpp
+  TankPlayerController.cpp
+  TankMovementComponent.cpp
+  TankBarrel.cpp
+  TankAimingComponent.cpp
+  TankAIController.cpp
+  Tank.cpp
+  BattleTankGameMode.cpp
+  Projectile.cpp
+  BattleTank.cpp
+  TankTrack.gen.cpp
+  TankTurret.gen.cpp
+  [24/25] Link UE4Editor-BattleTank-2852.dll
+  [25/25] Link UE4Editor-BattleTank-2852.lib
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-2852.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-2852.exp
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-2852.suppressed.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-2852.suppressed.exp
+  Deploying BattleTankEditor Win64 Development...
+  Total build time: 49.40 seconds (Local executor: 40.61 seconds)

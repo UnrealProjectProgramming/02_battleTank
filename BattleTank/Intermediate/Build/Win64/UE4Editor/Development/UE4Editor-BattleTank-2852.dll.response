@@ -1,0 +1,86 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\PCH.BattleTank.h.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameMode.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAimingComponent.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankBarrel.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankMovementComponent.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankTrack.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankTurret.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameMode.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAimingComponent.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankBarrel.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankMovementComponent.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankTrack.gen.cpp.obj"
+"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankTurret.gen.cpp.obj"
+"N:\Program Files\EpicGames\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\PCLaunch.rc.res"
+"N:\Program Files\EpicGames\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"N:\Program Files\EpicGames\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"N:\Program Files\EpicGames\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIModule.lib"
+"N:\Program Files\EpicGames\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"N:\Program Files\EpicGames\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"N:\Program Files\EpicGames\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+/OUT:"N:\Programming\Unreal\02_battleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-2852.dll"
+/IMPLIB:"N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-2852.suppressed.lib"
+/PDB:"N:\Programming\Unreal\02_battleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-2852.pdb"
+/ignore:4078
