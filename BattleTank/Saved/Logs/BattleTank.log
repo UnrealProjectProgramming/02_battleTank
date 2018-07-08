@@ -1,4 +1,4 @@
-﻿Log file open, 07/08/18 20:41:25
+﻿Log file open, 07/09/18 00:38:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BattleTank
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-101857849) SRandInit(-101857849).
+LogInit: Display: RandInit(-183344645) SRandInit(-183344645).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 17.084132
+LogStats: Stats thread started at 0.979518
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -83,8 +83,8 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.293s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Binaries/Win64/UE4Editor-BattleTank-6240.dll (API version 3944462).
+LogStreaming: Display: Took  0.144s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Binaries/Win64/UE4Editor-BattleTank-6592.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -214,599 +214,723 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line:  
+LogInit: Command Line: 
 LogInit: Base Directory: N:/Program Files/EpicGames/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.08-18.41.37:348][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.08-18.41.37:349][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.08-18.41.37:792][  0]LogInit: Computer: SALAMANDER
-[2018.07.08-18.41.37:793][  0]LogInit: User: morga
-[2018.07.08-18.41.37:793][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.07.08-18.41.37:793][  0]LogInit: High frequency timer resolution =3.609374 MHz
-[2018.07.08-18.41.37:794][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.07.08-18.41.37:794][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.08-18.41.37:794][  0]LogMemory: Process Physical Memory: 273.70 MB used, 273.70 MB peak
-[2018.07.08-18.41.37:794][  0]LogMemory: Process Virtual Memory: 271.13 MB used, 271.13 MB peak
-[2018.07.08-18.41.37:794][  0]LogMemory: Physical Memory: 4831.69 MB used,  11481.39 MB free, 16313.08 MB total
-[2018.07.08-18.41.37:794][  0]LogMemory: Virtual Memory: 4807.88 MB used,  11481.39 MB free, 134217728.00 MB total
-[2018.07.08-18.41.42:928][  0]LogInit: Using OS detected language (en-GB).
-[2018.07.08-18.41.42:928][  0]LogInit: Using OS detected locale (en-GB).
-[2018.07.08-18.41.43:359][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.07.08-18.41.46:196][  0]LogStreaming: Display: Took  3.247s to EndInitTextLocalization.
-[2018.07.08-18.41.46:253][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.08-18.41.47:784][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.08-18.41.47:784][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.08-18.41.48:935][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.08-18.41.48:987][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2018.07.08-18.41.48:987][  0]LogD3D11RHI:       11127/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.08-18.41.48:988][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.08-18.41.48:989][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.08-18.41.48:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.08-18.41.49:011][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.08-18.41.49:013][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.08-18.41.49:013][  0]LogWindows: EnumDisplayDevices:
-[2018.07.08-18.41.49:013][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2018.07.08-18.41.49:013][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.07.08-18.41.49:013][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.07.08-18.41.49:013][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.07.08-18.41.49:013][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.08-18.41.49:013][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2018.07.08-18.41.49:013][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.08-18.41.49:013][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.08-18.41.49:014][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2018.07.08-18.41.49:104][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.08-18.41.49:104][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.08-18.41.49:104][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.08-18.41.49:772][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.07.08-18.41.50:000][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Programming/Unreal/02_battleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/3640/).
-[2018.07.08-18.41.50:006][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morga/AppData/Local/Temp/UnrealShaderWorkingDir/D8E5FE584E37058C1FDA1D9A6D0B7263/'.
-[2018.07.08-18.41.52:766][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.08-18.41.52:784][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.08-18.41.52:818][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.08-18.41.52:828][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.08-18.41.52:948][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.08-18.41.52:959][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.08-18.41.52:969][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.08-18.41.53:007][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.08-18.41.53:089][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.08-18.41.53:179][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.08-18.41.53:191][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.08-18.41.53:206][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.08-18.41.53:257][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.08-18.41.53:347][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.08-18.41.53:387][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.08-18.41.53:498][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.08-18.41.53:498][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.08-18.41.53:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.08-18.41.53:628][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.08-18.41.54:149][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.08-18.41.54:177][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.08-18.41.54:220][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.08-18.41.54:266][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.08-18.41.54:313][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.08-18.41.54:357][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.08-18.41.54:357][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.08-18.41.56:936][  0]LogXGEController: Cleaning working directory: C:/Users/morga/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.07.08-18.41.56:936][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.08-18.41.56:976][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.08-18.41.56:976][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.08-18.42.00:537][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.08-18.42.00:893][  0]LogDerivedDataCache: Loaded boot cache 0.36s 87MB C:/Users/morga/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.08-18.42.00:893][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morga/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.08-18.42.00:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/Unreal/02_battleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.08-18.42.00:894][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.08-18.42.00:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/Unreal/02_battleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.08-18.42.00:894][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.08-18.42.01:114][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.08-18.42.01:126][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.08-18.42.01:126][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.08-18.42.01:126][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.08-18.42.01:222][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.08-18.42.01:357][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.08-18.42.01:565][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.08-18.42.01:565][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.08-18.42.15:261][  0]LogAssetRegistry: FAssetRegistry took 0.1279 seconds to start up
-[2018.07.08-18.42.20:178][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.08-18.42.23:399][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.08-18.42.23:538][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.08-18.42.23:538][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.08-18.42.23:538][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.08-18.42.23:538][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.08-18.42.23:538][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.08-18.42.24:660][  0]LogNetVersion: BattleTank , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 612388110)
-[2018.07.08-18.42.35:862][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.114640 seconds
-[2018.07.08-18.42.35:882][  0]LogUObjectArray: 36698 objects as part of root set at end of initial load.
-[2018.07.08-18.42.35:882][  0]LogUObjectAllocator: 7308608 out of 0 bytes used by permanent object pool.
-[2018.07.08-18.42.35:882][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.08-18.42.53:708][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.08-18.42.53:788][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.08-18.42.55:813][  0]SourceControl: Source control is disabled
-[2018.07.08-18.42.55:815][  0]SourceControl: Source control is disabled
-[2018.07.08-18.42.55:913][  0]SourceControl: Source control is disabled
-[2018.07.08-18.42.55:929][  0]SourceControl: Source control is disabled
-[2018.07.08-18.42.57:661][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.08-18.42.57:894][  0]LogOcInput: OculusInput pre-init called
-[2018.07.08-18.42.59:713][  0]LogEngine: Initializing Engine...
-[2018.07.08-18.42.59:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.08-18.42.59:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.08-18.43.01:767][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.08-18.43.02:221][  0]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-18.43.02:264][  0]LogInit: FAudioDevice initialized.
-[2018.07.08-18.43.02:368][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/morga/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.08-18.43.02:379][  0]LogInit: Texture streaming: Enabled
-[2018.07.08-18.43.02:703][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.08-18.43.03:197][  0]LogInit: Transaction tracking system initialized
-[2018.07.08-18.43.04:078][  0]BlueprintLog: New page: Editor Load
-[2018.07.08-18.43.05:617][  0]LocalizationService: Localization service is disabled
-[2018.07.08-18.43.06:590][  0]LogConsoleResponse: Display: 
-[2018.07.08-18.43.09:292][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/' took 0.03s
-[2018.07.08-18.43.09:292][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.08-18.43.09:292][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.08-18.43.09:292][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.08-18.43.09:292][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.08-18.43.09:292][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.08-18.43.12:030][  0]SourceControl: Source control is disabled
-[2018.07.08-18.43.12:069][  0]Cmd: MAP LOAD FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.08-18.43.12:087][  0]LightingResults: New page: Lighting Build
-[2018.07.08-18.43.12:372][  0]MapCheck: New page: Map Check
-[2018.07.08-18.43.12:372][  0]LightingResults: New page: Lighting Build
-[2018.07.08-18.43.14:816][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019313923a30, Size=24, Default__TankPlayerController_BP_C Function /Game/Blueprints/TankPlayerController_BP.TankPlayerController_BP_C:ExecuteUbergraph_TankPlayerController_BP
-[2018.07.08-18.43.14:820][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019313923a30, Size=24
-[2018.07.08-18.43.14:820][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019313923a30, Size=24, Default__TankPlayerController_BP_C Function /Engine/Transient.REINST_TankPlayerController_BP_C_6:ExecuteUbergraph_TankPlayerController_BP
-[2018.07.08-18.43.14:836][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019313921558, Size=24, Default__TankPlayerController_BP_C Function /Game/Blueprints/TankPlayerController_BP.TankPlayerController_BP_C:ExecuteUbergraph_TankPlayerController_BP
-[2018.07.08-18.43.15:499][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019313f210c0, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
-[2018.07.08-18.43.15:529][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019313f210c0, Size=424
-[2018.07.08-18.43.15:529][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019314b4d280, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_10:ExecuteUbergraph_Tank_BP
-[2018.07.08-18.43.15:533][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019314b4c480, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
-[2018.07.08-18.43.15:743][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019313560b50, Size=4, Default__Mortar_BP_C Function /Game/Mortar/Mortar_BP.Mortar_BP_C:ExecuteUbergraph_Mortar_BP
-[2018.07.08-18.43.15:745][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019313560b50, Size=4
-[2018.07.08-18.43.15:745][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019313560b50, Size=4, Default__Mortar_BP_C Function /Engine/Transient.REINST_Mortar_BP_C_14:ExecuteUbergraph_Mortar_BP
-[2018.07.08-18.43.15:746][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019313560378, Size=4, Default__Mortar_BP_C Function /Game/Mortar/Mortar_BP.Mortar_BP_C:ExecuteUbergraph_Mortar_BP
-[2018.07.08-18.43.15:899][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019314b136c8, Size=40, Default__BattleGround_C Function /Game/_Levels/BattleGround.BattleGround_C:ExecuteUbergraph_BattleGround
-[2018.07.08-18.43.15:900][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019314b136c8, Size=40
-[2018.07.08-18.43.15:900][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019314b136c8, Size=40, Default__BattleGround_C Function /Engine/Transient.REINST_BattleGround_C_16:ExecuteUbergraph_BattleGround
-[2018.07.08-18.43.15:900][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019314b12a70, Size=40, Default__BattleGround_C Function /Game/_Levels/BattleGround.BattleGround_C:ExecuteUbergraph_BattleGround
-[2018.07.08-18.43.17:511][  0]LogAIModule: Creating AISystem for world BattleGround
-[2018.07.08-18.43.18:827][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.08-18.43.21:032][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019313923a30, Size=24
-[2018.07.08-18.43.21:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019314b4d280, Size=424
-[2018.07.08-18.43.21:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019313560b50, Size=4
-[2018.07.08-18.43.21:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019314b136c8, Size=40
-[2018.07.08-18.43.21:799][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.08-18.43.22:050][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 223.806ms to complete.
-[2018.07.08-18.43.22:091][  0]LogFileHelpers: Loading map 'BattleGround' took 10.037
-[2018.07.08-18.43.32:555][  0]LogCollectionManager: Loaded 0 collections in 0.001095 seconds
-[2018.07.08-18.43.33:522][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Saved/Collections/' took 0.01s
-[2018.07.08-18.43.33:522][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/Developers/morga/Collections/' took 0.01s
-[2018.07.08-18.43.33:522][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/Collections/' took 0.01s
-[2018.07.08-18.43.33:522][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.07.08-18.43.33:561][  0]LogContentBrowser: Native class hierarchy populated in 0.0243 seconds. Added 2461 classes and 558 folders.
-[2018.07.08-18.43.33:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.07.08-18.43.36:327][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.07.08-18.43.38:332][  0]LogSlate: Took 0.024965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.08-18.43.38:821][  0]LogSlate: Took 0.237279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.08-18.43.38:933][  0]LogSlate: Took 0.054621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.08-18.43.40:228][  0]LogRenderer: Reallocating scene render targets to support 1576x900 Format 10 NumSamples 1 (Frame:1).
-[2018.07.08-18.43.44:173][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.07.08-18.43.44:173][  0]LogLoad: (Engine Initialization) Total time: 188.32 seconds
-[2018.07.08-18.43.44:174][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.08-18.43.45:485][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.08-18.43.47:510][  2]LogAssetRegistry: Asset discovery search completed in 92.2709 seconds
-[2018.07.08-18.43.47:547][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.07.08-18.43.47:547][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.016352 seconds (updated 0 objects)
-[2018.07.08-18.43.47:782][  2]LogSlate: Took 0.032796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.08-18.45.38:342][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.45.47:982][640]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-18.45.48:119][640]Cmd: MAP LOAD FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.08-18.45.48:119][640]LightingResults: New page: Lighting Build
-[2018.07.08-18.45.48:119][640]LoadErrors: New page: Loading map: SprintTest.umap
-[2018.07.08-18.45.48:189][640]MapCheck: New page: Map Check
-[2018.07.08-18.45.48:189][640]LightingResults: New page: Lighting Build
-[2018.07.08-18.45.48:299][640]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019314b12a70, Size=40
-[2018.07.08-18.45.48:434][640]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.08-18.45.48:461][640]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.08-18.45.48:488][640]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 27.159ms to complete.
-[2018.07.08-18.45.48:488][640]LogFileHelpers: Loading map 'SprintTest' took 0.431
-[2018.07.08-18.45.54:504][176]LogEditorActor: Deleted Actor: SprungWheel_BP_C
-[2018.07.08-18.45.54:523][176]LogEditorActor: Deleted Actor: SprungWheel_BP_C
-[2018.07.08-18.45.54:540][176]LogEditorActor: Deleted 2 Actors (0.129 secs)
-[2018.07.08-18.45.57:122][481]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_0.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.46.00:563][812]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.07.08-18.46.01:144][812]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019390872598, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.08-18.46.01:174][812]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019390872590, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.08-18.46.07:898][372]LogSlate: Took 0.010783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.07.08-18.46.09:809][564]LogRenderer: Reallocating scene render targets to support 1576x1000 Format 10 NumSamples 1 (Frame:1).
-[2018.07.08-18.46.36:628][697]LogSlate: Took 0.007686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.07.08-18.47.20:218][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.47.28:165][798]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.47.28:242][798]LogBlueprint: Warning: [Compiler SprungWheel_BP] SprungWheel.Wheel is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Wheel
-[2018.07.08-18.47.28:243][798]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019332ed4e00, Size=148, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.47.28:733][798]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_3.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.47.28:737][798]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0412.88] Compile of SprungWheel_BP successful, but with 1 Warning(s) [in 571 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.47.28:959][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.47.29:134][811]LogSavePackage: Save=104.36ms
-[2018.07.08-18.47.29:134][811]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP77DA41644C522D7F93FBD7B2BA54F531.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.47.29:152][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.51.33:081][390]LogHotReload: New module detected: UE4Editor-BattleTank-7763.dll
-[2018.07.08-18.51.35:424][398]LogHotReload: Starting Hot-Reload from IDE
-[2018.07.08-18.51.35:502][398]LogClass: Could not find existing class SprungWheel in package /Script/BattleTank for HotReload, assuming new class
-[2018.07.08-18.51.35:532][398]LogClass: EFiringState HotReload.
-[2018.07.08-18.51.35:538][398]LogHotReload: Re-instancing SprungWheel after hot-reload.
-[2018.07.08-18.51.35:543][398]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019332ed4e00, Size=148
-[2018.07.08-18.51.35:543][398]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019347cda520, Size=148, SprungWheel_BP_C_4 Function /Engine/Transient.REINST_SprungWheel_BP_C_38:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.51.35:558][398]LogBlueprint: Error: [Compiler SprungWheel_BP] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2018.07.08-18.51.35:559][398]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019347cdade0, Size=148, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.51.35:559][398]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0659.70] Compile of SprungWheel_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 19 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.51.35:718][398]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_5.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.51.35:804][398]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0005 seconds. Added 11 classes and 3 folders.
-[2018.07.08-18.51.35:807][398]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2018.07.08-18.51.36:193][398]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2461 classes and 558 folders.
-[2018.07.08-18.51.36:277][398]Display: HotReload took  0.9s.
-[2018.07.08-18.51.41:617][414]LogHotReload: New module detected: UE4Editor-BattleTank-9574.dll
-[2018.07.08-18.51.42:293][417]LogHotReload: Starting Hot-Reload from IDE
-[2018.07.08-18.51.42:343][417]LogClass: EFiringState HotReload.
-[2018.07.08-18.51.42:346][417]LogHotReload: Re-instancing SprungWheel after hot-reload.
-[2018.07.08-18.51.42:348][417]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019347cdade0, Size=148
-[2018.07.08-18.51.42:348][417]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019333068f40, Size=148, SprungWheel_BP_C_6 Function /Engine/Transient.REINST_SprungWheel_BP_C_42:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.51.42:349][417]LogBlueprint: Error: [Compiler SprungWheel_BP] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2018.07.08-18.51.42:349][417]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019333068400, Size=148, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.51.42:350][417]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0666.49] Compile of SprungWheel_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 3 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.51.42:558][417]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_7.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.51.42:620][417]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0005 seconds. Added 11 classes and 3 folders.
-[2018.07.08-18.51.42:623][417]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2018.07.08-18.51.42:654][417]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019333068f40, Size=148
-[2018.07.08-18.51.42:924][417]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2461 classes and 558 folders.
-[2018.07.08-18.51.42:929][417]Display: HotReload took  0.6s.
-[2018.07.08-18.51.58:362][796]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.51.58:366][796]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019333068400, Size=148
-[2018.07.08-18.51.58:366][796]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938be90cc0, Size=148, SprungWheel_BP_C_8 Function /Engine/Transient.REINST_SprungWheel_BP_C_46:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.51.58:366][796]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938be91d00, Size=148, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.51.58:722][796]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_9.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.51.59:522][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.51.59:540][885]LogSavePackage: Save=15.87ms
-[2018.07.08-18.51.59:540][885]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP3CDED27A4D3066181EB3DD9764101580.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.51.59:541][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.52.00:088][950]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.52.00:091][950]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938be91d00, Size=148
-[2018.07.08-18.52.00:091][950]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938bc4a020, Size=148, SprungWheel_BP_C_10 Function /Engine/Transient.REINST_SprungWheel_BP_C_50:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.00:092][950]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938bc4b060, Size=148, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.00:288][950]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938be90cc0, Size=148
-[2018.07.08-18.52.00:289][950]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_11.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.52.04:473][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.08-18.52.04:489][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938bc4a020, Size=148
-[2018.07.08-18.52.04:501][433]LogSavePackage: Save=10.74ms
-[2018.07.08-18.52.04:501][433]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTestAF19C9B848D99992597D738BBDC406AC.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
-[2018.07.08-18.52.04:502][433]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
-[2018.07.08-18.52.10:791][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.52.10:899][138]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-18.52.11:012][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-18.52.11:108][138]PIE: New page: PIE session: SprintTest (8 Jul 2018 22:52:11)
-[2018.07.08-18.52.11:114][138]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-18.52.11:166][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052280s)
-[2018.07.08-18.52.11:166][138]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-18.52.11:180][138]LogPlayLevel: PIE: World Init took: (0.013878s)
-[2018.07.08-18.52.11:180][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.066328s)
-[2018.07.08-18.52.11:195][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019347cda520, Size=148
-[2018.07.08-18.52.11:221][138]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-18.52.11:227][138]LogInit: FAudioDevice initialized.
-[2018.07.08-18.52.11:270][138]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-18.52.11:419][138]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-20.52.11
-[2018.07.08-18.52.11:429][138]PIE: Warning: Constraint in '/Game/_Levels/UEDPIE_0_SprintTest.SprintTest:PersistentLevel.SprungWheel_BP_2.Physics Constraint' attempting to create a joint to the same body SprungWheel_BP_2
-[2018.07.08-18.52.11:451][138]LogWorld: Bringing up level for play took: 0.046403
-[2018.07.08-18.52.11:587][138]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.07.08-18.52.11:645][138]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.518
-[2018.07.08-18.52.22:408][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.52.22:523][393]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-18.52.22:532][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-18.52.22:532][393]PIE: New page: PIE session: SprintTest (8 Jul 2018 22:52:22)
-[2018.07.08-18.52.22:532][393]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-18.52.22:534][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001714s)
-[2018.07.08-18.52.22:534][393]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-18.52.22:535][393]LogPlayLevel: PIE: World Init took: (0.000460s)
-[2018.07.08-18.52.22:535][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002275s)
-[2018.07.08-18.52.22:554][393]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-18.52.22:560][393]LogInit: FAudioDevice initialized.
-[2018.07.08-18.52.22:588][393]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-18.52.22:590][393]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-20.52.22
-[2018.07.08-18.52.22:590][393]PIE: Warning: Constraint in '/Game/_Levels/UEDPIE_0_SprintTest.SprintTest:PersistentLevel.SprungWheel_BP_2.Physics Constraint' attempting to create a joint to the same body SprungWheel_BP_2
-[2018.07.08-18.52.22:590][393]LogWorld: Bringing up level for play took: 0.000749
-[2018.07.08-18.52.22:591][393]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.535
-[2018.07.08-18.52.35:444][880]LogClass: Warning: In asset 'None', there is an enum property of type 'ELinearConstraintMotion' with an invalid value of ''
-[2018.07.08-18.52.35:444][880]LogClass: Warning: In asset 'None', there is an enum property of type 'ELinearConstraintMotion' with an invalid value of ''
-[2018.07.08-18.52.35:444][880]LogClass: Warning: In asset 'None', there is an enum property of type 'ELinearConstraintMotion' with an invalid value of ''
-[2018.07.08-18.52.37:539][128]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.52.37:542][128]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938bc4b060, Size=148
-[2018.07.08-18.52.37:542][128]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322e31120, Size=148, Default__SprungWheel_BP_C Function /Engine/Transient.REINST_SprungWheel_BP_C_54:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.37:543][128]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322e336a0, Size=148, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.37:812][128]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_12.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.52.38:423][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.52.38:440][198]LogSavePackage: Save=15.11ms
-[2018.07.08-18.52.38:440][198]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP0ECE27F1489E73AA7DEC8095AE53E2C7.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.52.38:441][198]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.52.55:941][259]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.52.55:945][259]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019322e336a0, Size=148
-[2018.07.08-18.52.55:945][259]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193aabf9940, Size=148, SprungWheel_BP_C_13 Function /Engine/Transient.REINST_SprungWheel_BP_C_58:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.55:946][259]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193aabfa160, Size=148, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.56:273][259]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_14.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.52.59:604][653]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.52.59:608][653]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193aabfa160, Size=148
-[2018.07.08-18.52.59:608][653]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938007ca40, Size=148, SprungWheel_BP_C_15 Function /Engine/Transient.REINST_SprungWheel_BP_C_62:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.59:609][653]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193aae48c30, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.52.59:872][653]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193aabf9940, Size=148
-[2018.07.08-18.52.59:873][653]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_16.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.53.00:144][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.53.00:158][682]LogSavePackage: Save=12.74ms
-[2018.07.08-18.53.00:158][682]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP359D429C449DD622E9D327A5E9043163.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.53.00:159][682]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.53.00:313][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.53.00:321][699]LogSavePackage: Save=6.54ms
-[2018.07.08-18.53.00:321][699]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP6C77653446C9B59009639AB1B0C8651D.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.53.00:321][699]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.53.06:961][445]LogEditorActor: Deleted Actor: SprungWheel_BP_C
-[2018.07.08-18.53.06:978][445]LogEditorActor: Deleted 1 Actors (0.017 secs)
-[2018.07.08-18.53.15:789][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.53.35:615][831]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-18.53.35:626][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-18.53.35:626][831]PIE: New page: PIE session: SprintTest (8 Jul 2018 22:53:35)
-[2018.07.08-18.53.35:626][831]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-18.53.35:628][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001827s)
-[2018.07.08-18.53.35:629][831]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-18.53.35:629][831]LogPlayLevel: PIE: World Init took: (0.000560s)
-[2018.07.08-18.53.35:629][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002507s)
-[2018.07.08-18.53.35:648][831]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-18.53.35:654][831]LogInit: FAudioDevice initialized.
-[2018.07.08-18.53.35:684][831]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-18.53.35:686][831]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-20.53.35
-[2018.07.08-18.53.35:687][831]PIE: Warning: Constraint in '/Game/_Levels/UEDPIE_0_SprintTest.SprintTest:PersistentLevel.SprungWheel_BP_5.Physics Constraint' attempting to create a joint to the same body SprungWheel_BP_5
-[2018.07.08-18.53.35:687][831]LogWorld: Bringing up level for play took: 0.000741
-[2018.07.08-18.53.35:687][831]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.561
-[2018.07.08-18.53.49:107][427]LogSlate: Window 'Message Log' being destroyed
-[2018.07.08-18.53.49:110][427]LogSlate: Window 'Message Log' being destroyed
-[2018.07.08-18.54.02:162][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.54.48:552][461]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.54.48:557][461]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193aae48c30, Size=4
-[2018.07.08-18.54.48:557][461]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193a950fd90, Size=4, SprungWheel_BP_C_17 Function /Engine/Transient.REINST_SprungWheel_BP_C_66:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.54.48:558][461]LogBlueprint: Warning: [Compiler SprungWheel_BP] SprungWheel.PhysicsConstraint is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get PhysicsConstraint
-[2018.07.08-18.54.48:558][461]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193a950e540, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.54.48:866][461]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_18.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.54.48:871][461]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0853.01] Compile of SprungWheel_BP successful, but with 1 Warning(s) [in 318 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.54.48:965][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.54.48:980][467]LogSavePackage: Save=13.24ms
-[2018.07.08-18.54.48:980][467]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP0478327C48ADE942E0E15AAC1467B15E.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.54.48:981][467]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.54.49:205][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.54.49:214][492]LogSavePackage: Save=7.32ms
-[2018.07.08-18.54.49:214][492]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPF1C333D042F113F277AC67B2409AE38C.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.54.49:214][492]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.55.08:353][ 71]LogHotReload: New module detected: UE4Editor-BattleTank-6107.dll
-[2018.07.08-18.55.09:368][ 75]LogHotReload: Starting Hot-Reload from IDE
-[2018.07.08-18.55.09:407][ 75]LogClass: Could not find existing class SprungWheel in package /Script/BattleTank for HotReload, assuming new class
-[2018.07.08-18.55.09:418][ 75]LogClass: EFiringState HotReload.
-[2018.07.08-18.55.09:423][ 75]LogHotReload: Re-instancing SprungWheel after hot-reload.
-[2018.07.08-18.55.09:428][ 75]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193a950e540, Size=4
-[2018.07.08-18.55.09:428][ 75]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938c2df510, Size=4, SprungWheel_BP_C_19 Function /Engine/Transient.REINST_SprungWheel_BP_C_70:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.55.09:429][ 75]LogBlueprint: Warning: [Compiler SprungWheel_BP] SprungWheel.PhysicsConstraint is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get PhysicsConstraint
-[2018.07.08-18.55.09:429][ 75]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938c2de3a8, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.55.09:430][ 75]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0873.57] Compile of SprungWheel_BP successful, but with 1 Warning(s) [in 4 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.55.09:730][ 75]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_20.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.55.09:816][ 75]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0005 seconds. Added 11 classes and 3 folders.
-[2018.07.08-18.55.09:819][ 75]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2018.07.08-18.55.09:858][ 75]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938c2df510, Size=4
-[2018.07.08-18.55.10:097][ 75]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2461 classes and 558 folders.
-[2018.07.08-18.55.10:101][ 75]Display: HotReload took  0.7s.
-[2018.07.08-18.55.26:531][256]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.55.26:535][256]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938c2de3a8, Size=4
-[2018.07.08-18.55.26:536][256]LogUObjectGlobals: Created PersistentFrame Addr=0x000001933490cb40, Size=4, SprungWheel_BP_C_21 Function /Engine/Transient.REINST_SprungWheel_BP_C_74:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.55.26:536][256]LogBlueprint: Warning: [Compiler SprungWheel_BP] SprungWheel.PhysicsConstraint is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get PhysicsConstraint
-[2018.07.08-18.55.26:537][256]LogUObjectGlobals: Created PersistentFrame Addr=0x000001933490c668, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.55.26:977][256]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_22.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.55.26:980][256]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0891.12] Compile of SprungWheel_BP successful, but with 1 Warning(s) [in 449 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.55.27:304][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.55.27:320][290]LogSavePackage: Save=13.49ms
-[2018.07.08-18.55.27:320][290]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPC0D8EA264B7876F467652DA6F2E55298.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.55.27:321][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.56.03:368][710]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.56.03:373][710]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001933490c668, Size=4
-[2018.07.08-18.56.03:373][710]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938f3bcf38, Size=4, SprungWheel_BP_C_23 Function /Engine/Transient.REINST_SprungWheel_BP_C_78:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.03:374][710]LogBlueprint: Warning: [Compiler SprungWheel_BP] SprungWheel.PhysicsConstraint is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get PhysicsConstraint
-[2018.07.08-18.56.03:374][710]LogUObjectGlobals: Created PersistentFrame Addr=0x000001938f3bcf60, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.03:708][710]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001933490cb40, Size=4
-[2018.07.08-18.56.03:763][710]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_24.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.56.03:767][710]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0927.91] Compile of SprungWheel_BP successful, but with 1 Warning(s) [in 399 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.56.04:391][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.56.04:407][780]LogSavePackage: Save=13.99ms
-[2018.07.08-18.56.04:408][780]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP7AD50AEF430120A9ED8186B1B76E964F.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.56.04:408][780]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.56.04:582][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.56.04:591][799]LogSavePackage: Save=7.43ms
-[2018.07.08-18.56.04:591][799]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPF45F8E0F4E540DCD26490CBEF7EEC01C.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.56.04:592][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.56.05:308][885]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.56.05:313][885]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938f3bcf60, Size=4
-[2018.07.08-18.56.05:313][885]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193a950f000, Size=4, SprungWheel_BP_C_25 Function /Engine/Transient.REINST_SprungWheel_BP_C_82:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.05:314][885]LogBlueprint: Warning: [Compiler SprungWheel_BP] SprungWheel.PhysicsConstraint is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get PhysicsConstraint
-[2018.07.08-18.56.05:314][885]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193a950f030, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.05:594][885]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938f3bcf38, Size=4
-[2018.07.08-18.56.05:596][885]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_26.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.56.05:600][885]LogBlueprint: Warning: [Compiler SprungWheel_BP] [0929.74] Compile of SprungWheel_BP successful, but with 1 Warning(s) [in 291 ms] (/Game/Tank/SprungWheel_BP.SprungWheel_BP)
-[2018.07.08-18.56.10:409][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.56.10:501][436]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-18.56.10:511][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-18.56.10:511][436]PIE: New page: PIE session: SprintTest (8 Jul 2018 22:56:10)
-[2018.07.08-18.56.10:511][436]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-18.56.10:513][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001681s)
-[2018.07.08-18.56.10:513][436]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-18.56.10:513][436]LogPlayLevel: PIE: World Init took: (0.000521s)
-[2018.07.08-18.56.10:513][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002305s)
-[2018.07.08-18.56.10:528][436]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193a950f000, Size=4
-[2018.07.08-18.56.10:534][436]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-18.56.10:540][436]LogInit: FAudioDevice initialized.
-[2018.07.08-18.56.10:576][436]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-18.56.10:579][436]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-20.56.10
-[2018.07.08-18.56.10:579][436]PIE: Warning: Constraint in '/Game/_Levels/UEDPIE_0_SprintTest.SprintTest:PersistentLevel.SprungWheel_BP_5.Physics Constraint' attempting to create a joint to the same body SprungWheel_BP_5
-[2018.07.08-18.56.10:579][436]LogWorld: Bringing up level for play took: 0.000760
-[2018.07.08-18.56.10:580][436]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.546
-[2018.07.08-18.56.46:127][801]LogHotReload: New module detected: UE4Editor-BattleTank-8597.dll
-[2018.07.08-18.56.47:137][805]LogHotReload: Starting Hot-Reload from IDE
-[2018.07.08-18.56.47:168][805]LogClass: Could not find existing class SprungWheel in package /Script/BattleTank for HotReload, assuming new class
-[2018.07.08-18.56.47:177][805]LogClass: EFiringState HotReload.
-[2018.07.08-18.56.47:182][805]LogHotReload: Re-instancing SprungWheel after hot-reload.
-[2018.07.08-18.56.47:188][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193a950f030, Size=4
-[2018.07.08-18.56.47:188][805]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193335aa460, Size=4, SprungWheel_BP_C_27 Function /Engine/Transient.REINST_SprungWheel_BP_C_86:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.47:189][805]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193335aa4b0, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.47:451][805]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_28.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.56.47:524][805]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0006 seconds. Added 11 classes and 3 folders.
-[2018.07.08-18.56.47:527][805]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2018.07.08-18.56.47:562][805]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193335aa460, Size=4
-[2018.07.08-18.56.47:790][805]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2461 classes and 558 folders.
-[2018.07.08-18.56.47:793][805]Display: HotReload took  0.7s.
-[2018.07.08-18.56.50:401][  0]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.56.50:406][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193335aa4b0, Size=4
-[2018.07.08-18.56.50:406][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193a942d9e0, Size=4, SprungWheel_BP_C_29 Function /Engine/Transient.REINST_SprungWheel_BP_C_90:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.50:407][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000193a942cf30, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.56.50:818][  0]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_30.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.56.51:174][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.56.51:191][ 38]LogSavePackage: Save=14.59ms
-[2018.07.08-18.56.51:191][ 38]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP661C0BD049A98FE6ABEA9699E0C318D1.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.56.51:191][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.57.00:537][100]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.57.00:541][100]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193a942cf30, Size=4
-[2018.07.08-18.57.00:541][100]LogUObjectGlobals: Created PersistentFrame Addr=0x000001931f6c43e8, Size=4, SprungWheel_BP_C_31 Function /Engine/Transient.REINST_SprungWheel_BP_C_94:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.57.00:542][100]LogUObjectGlobals: Created PersistentFrame Addr=0x000001931f6c4a38, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.57.00:858][100]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193a942d9e0, Size=4
-[2018.07.08-18.57.00:866][100]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_32.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.57.01:374][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.57.01:390][157]LogSavePackage: Save=13.96ms
-[2018.07.08-18.57.01:390][157]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPA9F954FE459120195CDA50B6A0EA2DEC.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.57.01:391][157]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-18.57.03:593][408]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-18.57.03:605][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-18.57.03:605][408]PIE: New page: PIE session: SprintTest (8 Jul 2018 22:57:03)
-[2018.07.08-18.57.03:606][408]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-18.57.03:607][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001658s)
-[2018.07.08-18.57.03:608][408]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-18.57.03:608][408]LogPlayLevel: PIE: World Init took: (0.000475s)
-[2018.07.08-18.57.03:608][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002235s)
-[2018.07.08-18.57.03:628][408]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-18.57.03:634][408]LogInit: FAudioDevice initialized.
-[2018.07.08-18.57.03:666][408]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-18.57.03:668][408]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-20.57.03
-[2018.07.08-18.57.03:669][408]LogWorld: Bringing up level for play took: 0.000657
-[2018.07.08-18.57.03:669][408]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.543
-[2018.07.08-18.57.14:205][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-18.57.15:653][835]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-18.57.15:657][835]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001931f6c4a38, Size=4
-[2018.07.08-18.57.15:657][835]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322df1f98, Size=4, SprungWheel_BP_C_33 Function /Engine/Transient.REINST_SprungWheel_BP_C_98:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.57.15:658][835]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322df1de8, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-18.57.15:979][835]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_34.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-18.57.16:400][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-18.57.16:416][882]LogSavePackage: Save=13.86ms
-[2018.07.08-18.57.16:416][882]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPE49688CB48135E99CDB7DD9A80541DCC.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-18.57.16:416][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-19.00.05:190][944]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-19.00.05:194][944]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019322df1de8, Size=4
-[2018.07.08-19.00.05:194][944]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322df1de8, Size=4, SprungWheel_BP_C_35 Function /Engine/Transient.REINST_SprungWheel_BP_C_102:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-19.00.05:196][944]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322df00e8, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-19.00.05:463][944]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019322df1f98, Size=4
-[2018.07.08-19.00.05:464][944]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_36.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-19.00.05:511][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-19.00.05:528][946]LogSavePackage: Save=14.60ms
-[2018.07.08-19.00.05:528][946]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPBA3527694CE1B24A5A2C57ACA27406D6.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-19.00.05:529][946]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-19.00.20:042][683]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-19.00.20:047][683]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019322df00e8, Size=4
-[2018.07.08-19.00.20:047][683]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019393719378, Size=4, SprungWheel_BP_C_37 Function /Engine/Transient.REINST_SprungWheel_BP_C_106:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-19.00.20:048][683]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019393719a88, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-19.00.20:309][683]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_38.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-19.00.20:527][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-19.00.20:541][705]LogSavePackage: Save=13.59ms
-[2018.07.08-19.00.20:541][705]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP0887CD854C870A174A374E8DBD32E6BF.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-19.00.20:542][705]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-19.00.25:924][346]BlueprintLog: New page: Compile SprungWheel_BP
-[2018.07.08-19.00.25:928][346]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019393719a88, Size=4
-[2018.07.08-19.00.25:928][346]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322df2300, Size=4, SprungWheel_BP_C_39 Function /Engine/Transient.REINST_SprungWheel_BP_C_110:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-19.00.25:929][346]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019322df09b0, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
-[2018.07.08-19.00.26:189][346]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019393719378, Size=4
-[2018.07.08-19.00.26:191][346]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.SprungWheel_BP_C_40.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.08-19.00.26:225][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-19.00.26:240][347]LogSavePackage: Save=13.22ms
-[2018.07.08-19.00.26:240][347]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPD2B4F4BB41928884C4E6F0886B9EB13B.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-19.00.26:241][347]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-19.00.26:425][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
-[2018.07.08-19.00.26:434][368]LogSavePackage: Save=6.90ms
-[2018.07.08-19.00.26:434][368]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPADE78B8943539F3B173BFE9928DCE972.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
-[2018.07.08-19.00.26:435][368]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
-[2018.07.08-19.00.27:715][522]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-19.00.27:728][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-19.00.27:728][522]PIE: New page: PIE session: SprintTest (8 Jul 2018 23:00:27)
-[2018.07.08-19.00.27:728][522]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-19.00.27:730][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001726s)
-[2018.07.08-19.00.27:730][522]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-19.00.27:730][522]LogPlayLevel: PIE: World Init took: (0.000525s)
-[2018.07.08-19.00.27:730][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002356s)
-[2018.07.08-19.00.27:745][522]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019322df2300, Size=4
-[2018.07.08-19.00.27:750][522]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-19.00.27:755][522]LogInit: FAudioDevice initialized.
-[2018.07.08-19.00.27:797][522]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-19.00.27:806][522]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-21.00.27
-[2018.07.08-19.00.27:806][522]LogWorld: Bringing up level for play took: 0.001679
-[2018.07.08-19.00.27:808][522]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.681
-[2018.07.08-19.00.33:946][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-19.00.37:432][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-19.00.37:548][664]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-19.00.37:558][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-19.00.37:558][664]PIE: New page: PIE session: SprintTest (8 Jul 2018 23:00:37)
-[2018.07.08-19.00.37:558][664]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-19.00.37:560][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001920s)
-[2018.07.08-19.00.37:561][664]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-19.00.37:561][664]LogPlayLevel: PIE: World Init took: (0.000554s)
-[2018.07.08-19.00.37:561][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002596s)
-[2018.07.08-19.00.37:581][664]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-19.00.37:587][664]LogInit: FAudioDevice initialized.
-[2018.07.08-19.00.37:624][664]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-19.00.37:626][664]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-21.00.37
-[2018.07.08-19.00.37:627][664]LogWorld: Bringing up level for play took: 0.000742
-[2018.07.08-19.00.37:627][664]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.5
-[2018.07.08-19.00.46:091][665]LogEditorActor: Deleted Actor: SprungWheel_BP_C
-[2018.07.08-19.00.46:106][665]LogEditorActor: Deleted 1 Actors (0.016 secs)
-[2018.07.08-19.00.48:107][901]LogEditorViewport: Clicking on Actor (LMB): SprungWheel_BP_C (SprungWheel_BP)
-[2018.07.08-19.00.56:960][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-19.00.57:060][920]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.08-19.00.57:069][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.08-19.00.57:069][920]PIE: New page: PIE session: SprintTest (8 Jul 2018 23:00:57)
-[2018.07.08-19.00.57:069][920]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
-[2018.07.08-19.00.57:071][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001675s)
-[2018.07.08-19.00.57:072][920]LogAIModule: Creating AISystem for world SprintTest
-[2018.07.08-19.00.57:072][920]LogPlayLevel: PIE: World Init took: (0.000461s)
-[2018.07.08-19.00.57:072][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002247s)
-[2018.07.08-19.00.57:092][920]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.08-19.00.57:098][920]LogInit: FAudioDevice initialized.
-[2018.07.08-19.00.57:129][920]LogLoad: Game class is 'GameModeBase'
-[2018.07.08-19.00.57:132][920]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-21.00.57
-[2018.07.08-19.00.57:132][920]LogWorld: Bringing up level for play took: 0.000647
-[2018.07.08-19.00.57:133][920]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.006
-[2018.07.08-19.01.06:534][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.08-19.02.52:392][624]LogSavePackage: Save=10.91ms
-[2018.07.08-19.02.52:392][624]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest_Auto1AA02F66542B4F01CB03075A07B0A1C40.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto1.umap'
-[2018.07.08-19.02.52:392][624]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto1.umap
-[2018.07.08-19.02.52:393][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/SprintTest' took 0.078
-[2018.07.08-19.02.52:393][624]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.078
-[2018.07.08-19.04.05:636][844]LogHotReload: New module detected: UE4Editor-BattleTank-6696.dll
-[2018.07.08-19.04.06:982][849]LogHotReload: Starting Hot-Reload from IDE
-[2018.07.08-19.04.07:039][849]LogClass: EFiringState HotReload.
-[2018.07.08-19.04.07:044][849]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0006 seconds. Added 11 classes and 3 folders.
-[2018.07.08-19.04.07:048][849]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
-[2018.07.08-19.04.07:303][849]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2461 classes and 558 folders.
-[2018.07.08-19.04.07:308][849]Display: HotReload took  0.3s.
-[2018.07.08-19.04.32:924][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.08-19.04.32:979][ 40]LogSavePackage: Save=10.81ms
-[2018.07.08-19.04.32:979][ 40]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest6CB375744E75256BB204B089A3AFA18E.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
-[2018.07.08-19.04.32:980][ 40]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
-[2018.07.08-19.04.39:574][804]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001931f6c43e8, Size=4
-[2018.07.08-19.04.39:574][804]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001938007ca40, Size=148
-[2018.07.08-19.04.39:574][804]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000193a950fd90, Size=4
-[2018.07.08-19.04.39:575][804]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019322e31120, Size=148
-[2018.07.08-19.04.39:575][804]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019322df1de8, Size=4
+[2018.07.08-22.38.33:294][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.08-22.38.33:295][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.08-22.38.33:403][  0]LogInit: Computer: SALAMANDER
+[2018.07.08-22.38.33:403][  0]LogInit: User: morga
+[2018.07.08-22.38.33:403][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.07.08-22.38.33:403][  0]LogInit: High frequency timer resolution =3.609374 MHz
+[2018.07.08-22.38.33:403][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.08-22.38.33:403][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.08-22.38.33:403][  0]LogMemory: Process Physical Memory: 274.93 MB used, 274.93 MB peak
+[2018.07.08-22.38.33:403][  0]LogMemory: Process Virtual Memory: 271.09 MB used, 271.09 MB peak
+[2018.07.08-22.38.33:403][  0]LogMemory: Physical Memory: 7344.63 MB used,  8968.45 MB free, 16313.08 MB total
+[2018.07.08-22.38.33:403][  0]LogMemory: Virtual Memory: 4807.88 MB used,  8968.45 MB free, 134217728.00 MB total
+[2018.07.08-22.38.33:597][  0]LogInit: Using OS detected language (en-GB).
+[2018.07.08-22.38.33:597][  0]LogInit: Using OS detected locale (en-GB).
+[2018.07.08-22.38.33:668][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.07.08-22.38.34:193][  0]LogStreaming: Display: Took  0.597s to EndInitTextLocalization.
+[2018.07.08-22.38.34:193][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.08-22.38.34:340][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.08-22.38.34:340][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.08-22.38.34:696][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.08-22.38.34:759][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.07.08-22.38.34:759][  0]LogD3D11RHI:       11127/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.08-22.38.34:760][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.08-22.38.34:760][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.08-22.38.34:760][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.08-22.38.34:766][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.08-22.38.34:766][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.08-22.38.34:766][  0]LogWindows: EnumDisplayDevices:
+[2018.07.08-22.38.34:766][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.07.08-22.38.34:766][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.07.08-22.38.34:766][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.07.08-22.38.34:766][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.07.08-22.38.34:766][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.08-22.38.34:766][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.07.08-22.38.34:766][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.08-22.38.34:766][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.08-22.38.34:766][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.07.08-22.38.34:887][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.08-22.38.34:887][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.08-22.38.34:887][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.08-22.38.34:931][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.08-22.38.34:973][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Programming/Unreal/02_battleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/12292/).
+[2018.07.08-22.38.34:973][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morga/AppData/Local/Temp/UnrealShaderWorkingDir/6F4A1D1446DACB76B69903BFDDDDE62B/'.
+[2018.07.08-22.38.35:533][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.08-22.38.35:544][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.08-22.38.35:553][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.08-22.38.35:572][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.08-22.38.35:597][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.08-22.38.35:618][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.08-22.38.35:647][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.08-22.38.35:681][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.08-22.38.35:687][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.08-22.38.35:712][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.08-22.38.35:745][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.08-22.38.35:772][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.08-22.38.35:805][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.08-22.38.35:816][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.08-22.38.35:825][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.08-22.38.35:870][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.08-22.38.35:870][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.08-22.38.35:881][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.08-22.38.35:894][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.08-22.38.36:008][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.08-22.38.36:027][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.08-22.38.36:059][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.08-22.38.36:072][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.08-22.38.36:102][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.08-22.38.36:129][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.08-22.38.36:129][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.08-22.38.36:712][  0]LogXGEController: Cleaning working directory: C:/Users/morga/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.08-22.38.36:712][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.08-22.38.36:712][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.08-22.38.36:712][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.08-22.38.37:654][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.08-22.38.37:910][  0]LogDerivedDataCache: Loaded boot cache 0.26s 74MB C:/Users/morga/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.08-22.38.37:910][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morga/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.08-22.38.37:910][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/Unreal/02_battleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.08-22.38.37:910][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.08-22.38.37:911][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/Unreal/02_battleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.08-22.38.37:911][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.08-22.38.37:937][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.08-22.38.37:949][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.08-22.38.37:949][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.08-22.38.37:949][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.08-22.38.37:958][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.08-22.38.37:977][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.08-22.38.37:993][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.08-22.38.37:993][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.08-22.38.40:347][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2018.07.08-22.38.41:358][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.08-22.38.41:776][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.08-22.38.41:804][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.08-22.38.41:804][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.08-22.38.41:804][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.08-22.38.41:804][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.08-22.38.41:804][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.08-22.38.41:847][  0]LogNetVersion: BattleTank , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 612388110)
+[2018.07.08-22.38.42:552][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.026717 seconds
+[2018.07.08-22.38.42:555][  0]LogUObjectArray: 36698 objects as part of root set at end of initial load.
+[2018.07.08-22.38.42:555][  0]LogUObjectAllocator: 7308616 out of 0 bytes used by permanent object pool.
+[2018.07.08-22.38.42:555][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.08-22.38.48:582][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.08-22.38.48:671][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.08-22.38.49:446][  0]SourceControl: Source control is disabled
+[2018.07.08-22.38.49:446][  0]SourceControl: Source control is disabled
+[2018.07.08-22.38.49:495][  0]SourceControl: Source control is disabled
+[2018.07.08-22.38.49:505][  0]SourceControl: Source control is disabled
+[2018.07.08-22.38.50:552][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.08-22.38.50:777][  0]LogOcInput: OculusInput pre-init called
+[2018.07.08-22.38.51:067][  0]LogEngine: Initializing Engine...
+[2018.07.08-22.38.51:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.08-22.38.51:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.08-22.38.51:409][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.08-22.38.51:420][  0]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-22.38.51:430][  0]LogInit: FAudioDevice initialized.
+[2018.07.08-22.38.51:501][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/morga/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.08-22.38.51:509][  0]LogInit: Texture streaming: Enabled
+[2018.07.08-22.38.51:589][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.08-22.38.51:604][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={10ACE84D-4BAA-957F-5ABE-FA93807DEB72}
+[2018.07.08-22.38.51:772][  0]LogInit: Transaction tracking system initialized
+[2018.07.08-22.38.52:193][  0]BlueprintLog: New page: Editor Load
+[2018.07.08-22.38.53:907][  0]LocalizationService: Localization service is disabled
+[2018.07.08-22.38.54:949][  0]LogConsoleResponse: Display: 
+[2018.07.08-22.38.55:733][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/' took 0.04s
+[2018.07.08-22.38.55:733][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.08-22.38.55:733][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.08-22.38.55:733][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.08-22.38.55:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.08-22.38.55:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.08-22.38.58:587][  0]SourceControl: Source control is disabled
+[2018.07.08-22.38.58:587][  0]Cmd: MAP LOAD FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.08-22.38.58:594][  0]LightingResults: New page: Lighting Build
+[2018.07.08-22.38.58:666][  0]MapCheck: New page: Map Check
+[2018.07.08-22.38.58:666][  0]LightingResults: New page: Lighting Build
+[2018.07.08-22.38.59:101][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d1200e800, Size=24, Default__TankPlayerController_BP_C Function /Game/Blueprints/TankPlayerController_BP.TankPlayerController_BP_C:ExecuteUbergraph_TankPlayerController_BP
+[2018.07.08-22.38.59:102][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d1200e800, Size=24
+[2018.07.08-22.38.59:102][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d1200e800, Size=24, Default__TankPlayerController_BP_C Function /Engine/Transient.REINST_TankPlayerController_BP_C_6:ExecuteUbergraph_TankPlayerController_BP
+[2018.07.08-22.38.59:103][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d1200d4e0, Size=24, Default__TankPlayerController_BP_C Function /Game/Blueprints/TankPlayerController_BP.TankPlayerController_BP_C:ExecuteUbergraph_TankPlayerController_BP
+[2018.07.08-22.39.00:396][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d15fc8df0, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.08-22.39.00:397][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d15fc8df0, Size=4
+[2018.07.08-22.39.00:397][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d15fc8df0, Size=4, Default__SprungWheel_BP_C Function /Engine/Transient.REINST_SprungWheel_BP_C_9:ExecuteUbergraph_SprungWheel_BP
+[2018.07.08-22.39.00:398][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d15fc8d50, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.08-22.39.00:877][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d09c90100, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.08-22.39.00:920][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d09c90100, Size=424
+[2018.07.08-22.39.00:920][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d0cd7fe40, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_12:ExecuteUbergraph_Tank_BP
+[2018.07.08-22.39.00:924][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d0cd7f040, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.08-22.39.00:955][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d15fc8a50, Size=4, Default__Mortar_BP_C Function /Game/Mortar/Mortar_BP.Mortar_BP_C:ExecuteUbergraph_Mortar_BP
+[2018.07.08-22.39.00:957][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d15fc8a50, Size=4
+[2018.07.08-22.39.00:957][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d15fc8a50, Size=4, Default__Mortar_BP_C Function /Engine/Transient.REINST_Mortar_BP_C_16:ExecuteUbergraph_Mortar_BP
+[2018.07.08-22.39.00:957][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d15fc8268, Size=4, Default__Mortar_BP_C Function /Game/Mortar/Mortar_BP.Mortar_BP_C:ExecuteUbergraph_Mortar_BP
+[2018.07.08-22.39.01:548][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d0cdb7f10, Size=40, Default__BattleGround_C Function /Game/_Levels/BattleGround.BattleGround_C:ExecuteUbergraph_BattleGround
+[2018.07.08-22.39.01:548][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d0cdb7f10, Size=40
+[2018.07.08-22.39.01:548][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d0cdb7f10, Size=40, Default__BattleGround_C Function /Engine/Transient.REINST_BattleGround_C_18:ExecuteUbergraph_BattleGround
+[2018.07.08-22.39.01:549][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d0cdb67f0, Size=40, Default__BattleGround_C Function /Game/_Levels/BattleGround.BattleGround_C:ExecuteUbergraph_BattleGround
+[2018.07.08-22.39.03:061][  0]LogAIModule: Creating AISystem for world BattleGround
+[2018.07.08-22.39.03:084][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.08-22.39.03:099][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d1200e800, Size=24
+[2018.07.08-22.39.03:099][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d15fc8df0, Size=4
+[2018.07.08-22.39.03:099][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d0cd7fe40, Size=424
+[2018.07.08-22.39.03:099][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d15fc8a50, Size=4
+[2018.07.08-22.39.03:099][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d0cdb7f10, Size=40
+[2018.07.08-22.39.03:100][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.08-22.39.03:126][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 26.38ms to complete.
+[2018.07.08-22.39.03:127][  0]LogFileHelpers: Loading map 'BattleGround' took 4.540
+[2018.07.08-22.39.03:788][  0]LogCollectionManager: Loaded 0 collections in 0.001683 seconds
+[2018.07.08-22.39.03:879][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Saved/Collections/' took 0.01s
+[2018.07.08-22.39.03:879][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/Developers/morga/Collections/' took 0.01s
+[2018.07.08-22.39.03:879][  0]LogFileCache: Scanning file cache for directory 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/Collections/' took 0.01s
+[2018.07.08-22.39.03:879][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.08-22.39.03:892][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2462 classes and 558 folders.
+[2018.07.08-22.39.03:989][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.07.08-22.39.06:567][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.08-22.39.06:771][  0]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.08-22.39.06:774][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.08-22.39.06:832][  0]LogSlate: Took 0.056774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.08-22.39.06:978][  0]LogRenderer: Reallocating scene render targets to support 1576x900 Format 10 NumSamples 1 (Frame:1).
+[2018.07.08-22.39.07:264][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.07.08-22.39.07:264][  0]LogLoad: (Engine Initialization) Total time: 38.72 seconds
+[2018.07.08-22.39.07:264][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.08-22.39.07:618][  0]LogAssetRegistry: Asset discovery search completed in 27.2931 seconds
+[2018.07.08-22.39.07:635][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.08-22.39.07:635][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2018.07.08-22.39.07:637][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.08-22.39.08:272][  2]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_0.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-22.39.08:624][  3]LogSlate: Took 0.018345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.08-22.39.17:267][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.39.17:848][156]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.08-22.39.18:069][156]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d86afcf40, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.08-22.39.18:167][156]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d86afcf38, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.08-22.39.19:123][156]LogSlate: Took 0.020826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.08-22.39.19:298][157]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.08-22.39.37:296][271]BlueprintLog: New page: Compile Tank_BP
+[2018.07.08-22.39.37:312][271]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d0cd7f040, Size=424
+[2018.07.08-22.39.37:312][271]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d8fbf6400, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_34:ExecuteUbergraph_Tank_BP
+[2018.07.08-22.39.37:315][271]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d8fbf50c0, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.08-22.39.37:922][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.08-22.39.37:955][295]LogSavePackage: Save=31.66ms
+[2018.07.08-22.39.37:955][295]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPCEDEB5A241D6B29AEECBA1877EE5AA48.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.08-22.39.37:956][295]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.08-22.39.39:388][459]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-22.39.39:403][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.39.39:403][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-22.39.39:528][459]PIE: New page: PIE session: BattleGround (9 Jul 2018 02:39:39)
+[2018.07.08-22.39.39:528][459]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.07.08-22.39.39:620][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091520s)
+[2018.07.08-22.39.39:621][459]LogAIModule: Creating AISystem for world BattleGround
+[2018.07.08-22.39.39:621][459]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.07.08-22.39.39:621][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.092716s)
+[2018.07.08-22.39.39:669][459]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-22.39.39:675][459]LogInit: FAudioDevice initialized.
+[2018.07.08-22.39.39:718][459]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2018.07.08-22.39.39:724][459]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.07.09-00.39.39
+[2018.07.08-22.39.39:725][459]LogWorld: Bringing up level for play took: 0.004539
+[2018.07.08-22.39.39:747][459]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 11 classes and 0 folders.
+[2018.07.08-22.39.39:748][459]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.39.39:748][459]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.39.39:748][459]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.39.39:754][459]LogTemp: Warning: NULL
+[2018.07.08-22.39.39:756][459]LogTemp: Warning: NULL
+[2018.07.08-22.39.39:756][459]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.39.39:757][459]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround 0.63
+[2018.07.08-22.39.39:757][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.39.49:783][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-22.40.10:153][970]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2018.07.08-22.40.16:674][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.40.29:287][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.40.31:991][147]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.07.08-22.40.40:735][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.40.40:803][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.40.40:848][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.42.29:624][840]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d0cdb67f0, Size=40
+[2018.07.08-22.42.29:624][840]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d30f09300, Size=40, Default__BattleGround_C Function /Engine/Transient.REINST_BattleGround_C_38:ExecuteUbergraph_BattleGround
+[2018.07.08-22.42.29:625][840]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025d30f09490, Size=40, Default__BattleGround_C Function /Game/_Levels/BattleGround.BattleGround_C:ExecuteUbergraph_BattleGround
+[2018.07.08-22.42.29:880][840]LogSavePackage: Save=264.86ms
+[2018.07.08-22.42.29:880][840]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/BattleGround03B4495D442996E32708C08AF47BAC0B.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/BattleGround.umap'
+[2018.07.08-22.42.29:881][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/BattleGround.umap
+[2018.07.08-22.42.29:893][840]LogFileHelpers: Saving map 'BattleGround' took 0.325
+[2018.07.08-22.42.40:883][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.42.48:709][ 21]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.07.08-22.42.50:183][180]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.07.08-22.42.51:428][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.42.55:453][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.43.08:026][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.43.08:134][147]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-22.43.08:145][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.08:145][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-22.43.08:145][147]PIE: New page: PIE session: BattleGround (9 Jul 2018 02:43:08)
+[2018.07.08-22.43.08:145][147]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.07.08-22.43.08:213][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067066s)
+[2018.07.08-22.43.08:214][147]LogAIModule: Creating AISystem for world BattleGround
+[2018.07.08-22.43.08:214][147]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2018.07.08-22.43.08:214][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.068445s)
+[2018.07.08-22.43.08:228][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d8fbf6400, Size=424
+[2018.07.08-22.43.08:228][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d30f09300, Size=40
+[2018.07.08-22.43.08:261][147]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-22.43.08:267][147]LogInit: FAudioDevice initialized.
+[2018.07.08-22.43.08:298][147]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2018.07.08-22.43.08:304][147]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.07.09-00.43.08
+[2018.07.08-22.43.08:304][147]LogWorld: Bringing up level for play took: 0.004598
+[2018.07.08-22.43.08:305][147]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.43.08:305][147]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.43.08:305][147]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.43.08:306][147]LogTemp: Warning: NULL
+[2018.07.08-22.43.08:306][147]LogTemp: Warning: NULL
+[2018.07.08-22.43.08:306][147]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.43.08:306][147]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.821
+[2018.07.08-22.43.08:307][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.11:359][507]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-22.43.16:869][ 44]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2018.07.08-22.43.18:305][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.43.28:433][833]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.344 s
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: === Handled ensure: ===
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: 
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: Ensure condition failed: OutTM.isValid() [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodySetup.cpp] [Line: 889]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: 
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: Stack: 
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006990B706 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:234]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006966AE3A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:299]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006967ECD6 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:430]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006711DED5 UE4Editor-Engine.dll!FBodySetupShapeIterator::PopulatePhysXGeometryAndTransform<FKConvexElem,physx::PxConvexMeshGeometry>() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\physicsengine\bodysetup.cpp:889]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006711C807 UE4Editor-Engine.dll!FBodySetupShapeIterator::ForEachShape<FKConvexElem,physx::PxConvexMeshGeometry>() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\physicsengine\bodysetup.cpp:762]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006712B540 UE4Editor-Engine.dll!UBodySetup::AddShapesToRigidActor_AssumesLocked() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\physicsengine\bodysetup.cpp:1048]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x00000000670D7F9D UE4Editor-Engine.dll!<lambda_9d2ed892e4d440654ad5c1bb03cddb77>::operator()() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\physicsengine\bodyinstance.cpp:2035]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x00000000670E89A3 UE4Editor-Engine.dll!FBodyInstance::ExecuteOnPhysicsReadWrite() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\physicsengine\bodyinstance.cpp:3032]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000067117936 UE4Editor-Engine.dll!FBodyInstance::Weld() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\physicsengine\bodyinstance.cpp:2090]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000067107637 UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\physicsengine\bodyinstance.cpp:2804]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000066922DD4 UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:693]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000066915E8E UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:688]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006697667C UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:655]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006698D4F7 UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:560]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006696DF59 UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:2642]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000066913549 UE4Editor-Engine.dll!UPrimitiveComponent::MoveComponentImpl() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:1800]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006698184D UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:1160]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000066981B7C UE4Editor-Engine.dll!USceneComponent::SetRelativeRotation() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:1187]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000053F59959 UE4Editor-BattleTank-6592.dll!UTankTurret::Rotate() [n:\programming\unreal\02_battletank\battletank\source\battletank\private\tankturret.cpp:12]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000053F5734D UE4Editor-BattleTank-6592.dll!UTankAimingComponent::MoveBarrelTowards() [n:\programming\unreal\02_battletank\battletank\source\battletank\private\tankaimingcomponent.cpp:113]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000053F56CDC UE4Editor-BattleTank-6592.dll!UTankAimingComponent::AimAt() [n:\programming\unreal\02_battletank\battletank\source\battletank\private\tankaimingcomponent.cpp:94]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000053F5604D UE4Editor-BattleTank-6592.dll!ATankAIController::Tick() [n:\programming\unreal\02_battletank\battletank\source\battletank\private\tankaicontroller.cpp:51]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000066DBA2AA UE4Editor-Engine.dll!AController::TickActor() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:408]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x00000000664200E4 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\actor.cpp:134]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x00000000675270BB UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:273]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006752C793 UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:829]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006953B713 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:665]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006953BD3A UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:574]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006955ECFE UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1355]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x000000006754D771 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:542]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000067553292 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1449]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000066DAC304 UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:770]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x0000000066DB756B UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:1429]
+[2018.07.08-22.43.28:433][833]LogOutputDevice: Error: [Callstack] 0x00000000646CD781 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1693]
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x0000000064F69626 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:401]
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x00000000CB7D5EAC UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3339]
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x00000000CB7E6BD0 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x00000000CB7E6C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x00000000CB7F4177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x00000000CB7F5B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x00000000BD263034 KERNEL32.DLL!UnknownFunction []
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: [Callstack] 0x00000000BEFB1431 ntdll.dll!UnknownFunction []
+[2018.07.08-22.43.28:434][833]LogOutputDevice: Error: 
+[2018.07.08-22.43.28:439][833]LogStats:                SubmitErrorReport -  0.000 s
+[2018.07.08-22.43.28:611][833]LogStats:                    SendNewReport -  0.172 s
+[2018.07.08-22.43.28:611][833]LogStats:             FDebug::EnsureFailed -  3.522 s
+[2018.07.08-22.43.28:611][833]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem invalid
+[2018.07.08-22.43.28:611][833]LogPhysics: Warning: ForeachShape(Convex): [/Game/Mortar/Turret_fancy_export_scaled_turret.Turret_fancy_export_scaled_turret] ScaledElem[0] invalid
+[2018.07.08-22.43.28:696][834]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem invalid
+[2018.07.08-22.43.28:696][834]LogPhysics: Warning: ForeachShape(Convex): [/Game/Mortar/Turret_fancy_export_scaled_barrel.Turret_fancy_export_scaled_barrel] ScaledElem[0] invalid
+[2018.07.08-22.43.28:696][834]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem invalid
+[2018.07.08-22.43.28:696][834]LogPhysics: Warning: ForeachShape(Convex): [/Game/Mortar/Turret_fancy_export_scaled_turret.Turret_fancy_export_scaled_turret] ScaledElem[0] invalid
+[2018.07.08-22.43.28:698][834]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.28:767][834]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.36:661][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.43.36:760][751]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-22.43.36:771][751]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.36:771][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-22.43.36:771][751]PIE: New page: PIE session: BattleGround (9 Jul 2018 02:43:36)
+[2018.07.08-22.43.36:771][751]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.07.08-22.43.36:835][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063382s)
+[2018.07.08-22.43.36:836][751]LogAIModule: Creating AISystem for world BattleGround
+[2018.07.08-22.43.36:836][751]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2018.07.08-22.43.36:836][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.064158s)
+[2018.07.08-22.43.36:853][751]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-22.43.36:858][751]LogInit: FAudioDevice initialized.
+[2018.07.08-22.43.36:894][751]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2018.07.08-22.43.36:900][751]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.07.09-00.43.36
+[2018.07.08-22.43.36:901][751]LogWorld: Bringing up level for play took: 0.004807
+[2018.07.08-22.43.36:901][751]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.43.36:901][751]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.43.36:901][751]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.43.36:902][751]LogTemp: Warning: NULL
+[2018.07.08-22.43.36:903][751]LogTemp: Warning: NULL
+[2018.07.08-22.43.36:903][751]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.43.36:903][751]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.223
+[2018.07.08-22.43.36:903][751]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.41:561][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.41:600][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.52:197][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-22.43.52:219][573]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d30f09490, Size=40
+[2018.07.08-22.43.52:219][573]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025dac70f3f8, Size=40, Default__BattleGround_C Function /Engine/Transient.REINST_BattleGround_C_42:ExecuteUbergraph_BattleGround
+[2018.07.08-22.43.52:220][573]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025dac70f448, Size=40, Default__BattleGround_C Function /Game/_Levels/BattleGround.BattleGround_C:ExecuteUbergraph_BattleGround
+[2018.07.08-22.43.52:408][573]LogSavePackage: Save=190.85ms
+[2018.07.08-22.43.52:408][573]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/BattleGroundE237FEEF41A28E65C86C5BAF2A93B371.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/BattleGround.umap'
+[2018.07.08-22.43.52:410][573]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/BattleGround.umap
+[2018.07.08-22.43.55:294][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025dac70f3f8, Size=40
+[2018.07.08-22.43.56:296][ 17]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-22.43.56:307][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.56:307][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-22.43.56:307][ 17]PIE: New page: PIE session: BattleGround (9 Jul 2018 02:43:56)
+[2018.07.08-22.43.56:307][ 17]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_BattleGround
+[2018.07.08-22.43.56:372][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064280s)
+[2018.07.08-22.43.56:372][ 17]LogAIModule: Creating AISystem for world BattleGround
+[2018.07.08-22.43.56:372][ 17]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2018.07.08-22.43.56:372][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/BattleGround.BattleGround to /Game/_Levels/UEDPIE_0_BattleGround.BattleGround (0.065147s)
+[2018.07.08-22.43.56:389][ 17]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-22.43.56:395][ 17]LogInit: FAudioDevice initialized.
+[2018.07.08-22.43.56:427][ 17]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2018.07.08-22.43.56:434][ 17]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.07.09-00.43.56
+[2018.07.08-22.43.56:434][ 17]LogWorld: Bringing up level for play took: 0.004819
+[2018.07.08-22.43.56:435][ 17]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.43.56:435][ 17]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.08-22.43.56:435][ 17]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.43.56:436][ 17]LogTemp: Warning: NULL
+[2018.07.08-22.43.56:436][ 17]LogTemp: Warning: NULL
+[2018.07.08-22.43.56:436][ 17]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.08-22.43.56:436][ 17]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_BattleGround -0.691
+[2018.07.08-22.43.56:436][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.43.58:476][260]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-22.44.00:386][463]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2018.07.08-22.44.01:624][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.44.09:002][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.44.09:042][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.08-22.44.10:547][519]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-22.44.23:433][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-22.44.23:723][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.08-22.44.23:770][821]LogSlate: Window 'BattleTank - Unreal Editor' being destroyed
+[2018.07.08-22.44.23:771][821]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.08-22.44.24:060][822]Cmd: QUIT_EDITOR
+[2018.07.08-22.44.24:769][822]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.07.08-22.44.24:775][822]LogExit: Preparing to exit.
+[2018.07.08-22.44.26:195][822]LogDirectoryWatcher: A directory notification for 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/' was aborted.
+[2018.07.08-22.44.26:308][822]LogExit: Editor shut down
+[2018.07.08-22.44.26:313][822]LogExit: Transaction tracking system shut down
+[2018.07.08-22.44.26:313][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d1200d4e0, Size=24
+[2018.07.08-22.44.26:314][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d15fc8d50, Size=4
+[2018.07.08-22.44.26:314][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d15fc8268, Size=4
+[2018.07.08-22.44.26:316][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d86afcf40, Size=4
+[2018.07.08-22.44.26:316][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d86afcf38, Size=4
+[2018.07.08-22.44.26:321][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025d8fbf50c0, Size=424
+[2018.07.08-22.44.26:321][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025dac70f448, Size=40
+[2018.07.08-22.44.26:539][822]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.07.08-22.44.26:539][822]LogDirectoryWatcher: A directory notification for '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/' was aborted.
+[2018.07.08-22.44.26:539][822]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.07.08-22.44.26:539][822]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.07.08-22.44.26:539][822]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.07.08-22.44.26:539][822]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.07.08-22.44.26:539][822]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.07.08-22.44.27:798][822]LogExit: Object subsystem successfully closed.
+[2018.07.08-22.44.27:873][822]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.07.08-22.44.27:885][822]LogD3D11RHI: Shutdown
+[2018.07.08-22.44.27:885][822]LogD3D11RHI: CleanupD3DDevice
+[2018.07.08-22.44.27:891][822]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.08-22.44.28:797][822]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (576)
+[2018.07.08-22.44.28:797][822]LogModuleManager: Shutting down and abandoning module BlueprintGraph (574)
+[2018.07.08-22.44.28:797][822]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (572)
+[2018.07.08-22.44.28:797][822]LogModuleManager: Shutting down and abandoning module DesktopPlatform (570)
+[2018.07.08-22.44.28:807][822]LogModuleManager: Shutting down and abandoning module AddContentDialog (568)
+[2018.07.08-22.44.28:814][822]LogDirectoryWatcher: A directory notification for 'N:/Program Files/EpicGames/UE_4.19/FeaturePacks/' was aborted.
+[2018.07.08-22.44.28:815][822]LogModuleManager: Shutting down and abandoning module WidgetCarousel (567)
+[2018.07.08-22.44.28:815][822]LogModuleManager: Shutting down and abandoning module EditorWidgets (564)
+[2018.07.08-22.44.28:815][822]LogModuleManager: Shutting down and abandoning module CollectionManager (562)
+[2018.07.08-22.44.28:825][822]LogDirectoryWatcher: A directory notification for 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/Collections/' was aborted.
+[2018.07.08-22.44.28:825][822]LogDirectoryWatcher: A directory notification for 'N:/Programming/Unreal/02_battleTank/BattleTank/Content/Developers/morga/Collections/' was aborted.
+[2018.07.08-22.44.28:825][822]LogDirectoryWatcher: A directory notification for 'N:/Programming/Unreal/02_battleTank/BattleTank/Saved/Collections/' was aborted.
+[2018.07.08-22.44.28:825][822]LogModuleManager: Shutting down and abandoning module SceneOutliner (560)
+[2018.07.08-22.44.28:825][822]LogModuleManager: Shutting down and abandoning module StatsViewer (558)
+[2018.07.08-22.44.28:840][822]LogModuleManager: Shutting down and abandoning module FoliageEdit (556)
+[2018.07.08-22.44.28:840][822]LogModuleManager: Shutting down and abandoning module LandscapeEditor (554)
+[2018.07.08-22.44.28:854][822]LogModuleManager: Shutting down and abandoning module MeshPaintMode (552)
+[2018.07.08-22.44.28:862][822]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (550)
+[2018.07.08-22.44.28:862][822]LogModuleManager: Shutting down and abandoning module ActorPickerMode (548)
+[2018.07.08-22.44.28:862][822]LogModuleManager: Shutting down and abandoning module GeometryMode (546)
+[2018.07.08-22.44.28:869][822]LogModuleManager: Shutting down and abandoning module TextureAlignMode (544)
+[2018.07.08-22.44.28:869][822]LogModuleManager: Shutting down and abandoning module BspMode (542)
+[2018.07.08-22.44.28:869][822]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (540)
+[2018.07.08-22.44.28:869][822]LogModuleManager: Shutting down and abandoning module HardwareSurvey (538)
+[2018.07.08-22.44.28:869][822]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (536)
+[2018.07.08-22.44.28:879][822]LogModuleManager: Shutting down and abandoning module AutomationWorker (534)
+[2018.07.08-22.44.28:879][822]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (532)
+[2018.07.08-22.44.28:879][822]LogModuleManager: Shutting down and abandoning module SequenceRecorder (531)
+[2018.07.08-22.44.28:900][822]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (528)
+[2018.07.08-22.44.28:900][822]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (526)
+[2018.07.08-22.44.28:937][822]LogModuleManager: Shutting down and abandoning module PlacementMode (525)
+[2018.07.08-22.44.28:937][822]LogModuleManager: Shutting down and abandoning module MaterialEditor (524)
+[2018.07.08-22.44.28:969][822]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (520)
+[2018.07.08-22.44.28:969][822]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (518)
+[2018.07.08-22.44.28:969][822]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (516)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (514)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (512)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (510)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (508)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (506)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (504)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (502)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module CharacterAI (500)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module SmartSnapping (498)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module SessionServices (496)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module ViewportSnapping (494)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module ViewportInteraction (492)
+[2018.07.08-22.44.28:991][822]LogModuleManager: Shutting down and abandoning module ClothPainter (490)
+[2018.07.08-22.44.29:013][822]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (489)
+[2018.07.08-22.44.29:037][822]LogModuleManager: Shutting down and abandoning module LogVisualizer (486)
+[2018.07.08-22.44.29:053][822]LogModuleManager: Shutting down and abandoning module IntroTutorials (484)
+[2018.07.08-22.44.29:085][822]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (483)
+[2018.07.08-22.44.29:085][822]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (480)
+[2018.07.08-22.44.29:092][822]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (478)
+[2018.07.08-22.44.29:092][822]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (476)
+[2018.07.08-22.44.29:092][822]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (475)
+[2018.07.08-22.44.29:481][822]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (472)
+[2018.07.08-22.44.29:481][822]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (470)
+[2018.07.08-22.44.29:481][822]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (468)
+[2018.07.08-22.44.29:481][822]LogModuleManager: Shutting down and abandoning module InputBindingEditor (466)
+[2018.07.08-22.44.30:697][822]LogModuleManager: Shutting down and abandoning module MergeActors (464)
+[2018.07.08-22.44.30:717][822]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (462)
+[2018.07.08-22.44.30:730][822]LogModuleManager: Shutting down and abandoning module LocalizationService (461)
+[2018.07.08-22.44.30:738][822]LogModuleManager: Shutting down and abandoning module HardwareTargeting (458)
+[2018.07.08-22.44.30:738][822]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (456)
+[2018.07.08-22.44.30:749][822]LogModuleManager: Shutting down and abandoning module UndoHistory (454)
+[2018.07.08-22.44.30:749][822]LogModuleManager: Shutting down and abandoning module XmlParser (452)
+[2018.07.08-22.44.30:759][822]LogModuleManager: Shutting down and abandoning module Blutility (450)
+[2018.07.08-22.44.30:759][822]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (448)
+[2018.07.08-22.44.30:759][822]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (447)
+[2018.07.08-22.44.30:759][822]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (444)
+[2018.07.08-22.44.30:759][822]LogModuleManager: Shutting down and abandoning module SettingsEditor (442)
+[2018.07.08-22.44.30:785][822]LogModuleManager: Shutting down and abandoning module ProjectLauncher (440)
+[2018.07.08-22.44.30:793][822]LogModuleManager: Shutting down and abandoning module SessionFrontend (438)
+[2018.07.08-22.44.30:799][822]LogModuleManager: Shutting down and abandoning module ProfilerClient (436)
+[2018.07.08-22.44.30:811][822]LogModuleManager: Shutting down and abandoning module DeviceManager (434)
+[2018.07.08-22.44.30:826][822]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (433)
+[2018.07.08-22.44.30:881][822]LogModuleManager: Shutting down and abandoning module AutomationController (430)
+[2018.07.08-22.44.30:933][822]LogModuleManager: Shutting down and abandoning module AutomationWindow (428)
+[2018.07.08-22.44.30:955][822]LogModuleManager: Shutting down and abandoning module Layers (426)
+[2018.07.08-22.44.30:975][822]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (424)
+[2018.07.08-22.44.30:975][822]LogModuleManager: Shutting down and abandoning module DetailCustomizations (422)
+[2018.07.08-22.44.30:991][822]LogModuleManager: Shutting down and abandoning module PackagesDialog (420)
+[2018.07.08-22.44.30:996][822]LogModuleManager: Shutting down and abandoning module Persona (418)
+[2018.07.08-22.44.31:014][822]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (417)
+[2018.07.08-22.44.31:014][822]LogModuleManager: Shutting down and abandoning module AnimGraph (415)
+[2018.07.08-22.44.31:014][822]LogModuleManager: Shutting down and abandoning module Kismet (412)
+[2018.07.08-22.44.31:032][822]LogModuleManager: Shutting down and abandoning module GraphEditor (410)
+[2018.07.08-22.44.31:032][822]LogModuleManager: Shutting down and abandoning module ClassViewer (408)
+[2018.07.08-22.44.31:032][822]LogModuleManager: Shutting down and abandoning module Toolbox (406)
+[2018.07.08-22.44.31:032][822]LogModuleManager: Shutting down and abandoning module ModuleUI (404)
+[2018.07.08-22.44.31:041][822]LogModuleManager: Shutting down and abandoning module MovieSceneTools (402)
+[2018.07.08-22.44.31:062][822]LogModuleManager: Shutting down and abandoning module OutputLog (400)
+[2018.07.08-22.44.31:062][822]LogModuleManager: Shutting down and abandoning module GammaUI (398)
+[2018.07.08-22.44.31:072][822]LogModuleManager: Shutting down and abandoning module Documentation (396)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (394)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module MovieScene (392)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (390)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module LauncherPlatform (388)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module AnalyticsET (386)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module PortalServices (384)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module PortalRpc (382)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module MessagingRpc (380)
+[2018.07.08-22.44.31:073][822]LogModuleManager: Shutting down and abandoning module AIModule (378)
+[2018.07.08-22.44.31:085][822]LogModuleManager: Shutting down and abandoning module GameplayDebugger (377)
+[2018.07.08-22.44.31:085][822]LogModuleManager: Shutting down and abandoning module AITestSuite (375)
+[2018.07.08-22.44.31:100][822]LogModuleManager: Shutting down and abandoning module ProfilerService (372)
+[2018.07.08-22.44.31:283][822]LogModuleManager: Shutting down and abandoning module TaskGraph (370)
+[2018.07.08-22.44.31:308][822]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2018.07.08-22.44.31:308][822]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2018.07.08-22.44.31:319][822]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2018.07.08-22.44.31:334][822]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2018.07.08-22.44.31:334][822]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2018.07.08-22.44.31:334][822]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2018.07.08-22.44.31:352][822]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2018.07.08-22.44.31:352][822]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2018.07.08-22.44.31:352][822]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2018.07.08-22.44.31:352][822]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2018.07.08-22.44.31:352][822]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2018.07.08-22.44.31:378][822]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2018.07.08-22.44.31:378][822]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2018.07.08-22.44.31:378][822]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2018.07.08-22.44.31:378][822]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2018.07.08-22.44.31:391][822]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2018.07.08-22.44.31:391][822]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2018.07.08-22.44.31:399][822]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2018.07.08-22.44.31:399][822]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2018.07.08-22.44.31:399][822]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2018.07.08-22.44.31:399][822]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2018.07.08-22.44.31:399][822]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2018.07.08-22.44.31:399][822]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2018.07.08-22.44.31:420][822]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2018.07.08-22.44.31:441][822]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2018.07.08-22.44.31:450][822]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2018.07.08-22.44.31:450][822]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2018.07.08-22.44.31:450][822]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2018.07.08-22.44.31:450][822]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2018.07.08-22.44.31:450][822]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2018.07.08-22.44.31:467][822]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2018.07.08-22.44.31:487][822]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2018.07.08-22.44.31:505][822]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2018.07.08-22.44.31:511][822]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2018.07.08-22.44.31:521][822]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2018.07.08-22.44.31:521][822]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2018.07.08-22.44.31:521][822]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2018.07.08-22.44.31:521][822]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2018.07.08-22.44.31:540][822]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module BattleTank (288)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (286)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (284)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module PhysXVehicles (282)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module OculusEditor (280)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (278)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (276)
+[2018.07.08-22.44.31:551][822]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (274)
+[2018.07.08-22.44.31:566][822]LogModuleManager: Shutting down and abandoning module ActorSequence (272)
+[2018.07.08-22.44.31:566][822]LogModuleManager: Shutting down and abandoning module UdpMessaging (270)
+[2018.07.08-22.44.31:677][822]LogModuleManager: Shutting down and abandoning module TcpMessaging (268)
+[2018.07.08-22.44.31:789][822]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
+[2018.07.08-22.44.31:797][822]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (264)
+[2018.07.08-22.44.31:797][822]LogModuleManager: Shutting down and abandoning module FacialAnimation (262)
+[2018.07.08-22.44.31:797][822]LogModuleManager: Shutting down and abandoning module DataValidation (260)
+[2018.07.08-22.44.31:797][822]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (258)
+[2018.07.08-22.44.31:815][822]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.07.08-22.44.31:826][822]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.07.08-22.44.31:842][822]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (254)
+[2018.07.08-22.44.31:843][822]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.07.08-22.44.31:843][822]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.07.08-22.44.31:843][822]LogDirectoryWatcher: A directory notification for 'N:/Programming/Unreal/02_battleTank/BattleTank/Binaries/Win64' was aborted.
+[2018.07.08-22.44.31:844][822]LogModuleManager: Shutting down and abandoning module ContentBrowser (247)
+[2018.07.08-22.44.31:847][822]LogModuleManager: Shutting down and abandoning module TreeMap (245)
+[2018.07.08-22.44.31:855][822]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (242)
+[2018.07.08-22.44.31:855][822]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (240)
+[2018.07.08-22.44.31:857][822]LogModuleManager: Shutting down and abandoning module LiveLink (238)
+[2018.07.08-22.44.32:081][822]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.07.08-22.44.32:100][822]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.07.08-22.44.32:111][822]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.07.08-22.44.32:129][822]LogModuleManager: Shutting down and abandoning module Media (231)
+[2018.07.08-22.44.32:135][822]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.07.08-22.44.32:135][822]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.07.08-22.44.32:135][822]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.07.08-22.44.32:155][822]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.07.08-22.44.32:155][822]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2018.07.08-22.44.32:155][822]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2018.07.08-22.44.32:155][822]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2018.07.08-22.44.32:174][822]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2018.07.08-22.44.32:174][822]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2018.07.08-22.44.32:174][822]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2018.07.08-22.44.32:206][822]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2018.07.08-22.44.32:218][822]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2018.07.08-22.44.32:238][822]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2018.07.08-22.44.32:238][822]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2018.07.08-22.44.32:238][822]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2018.07.08-22.44.32:267][822]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2018.07.08-22.44.32:290][822]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2018.07.08-22.44.32:290][822]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2018.07.08-22.44.32:302][822]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2018.07.08-22.44.32:302][822]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2018.07.08-22.44.32:303][822]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2018.07.08-22.44.32:304][822]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2018.07.08-22.44.32:304][822]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2018.07.08-22.44.32:304][822]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2018.07.08-22.44.32:304][822]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2018.07.08-22.44.32:304][822]LogModuleManager: Shutting down and abandoning module Core (176)
+[2018.07.08-22.44.32:304][822]LogModuleManager: Shutting down and abandoning module LevelSequence (174)
+[2018.07.08-22.44.32:310][822]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2018.07.08-22.44.32:310][822]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2018.07.08-22.44.32:328][822]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2018.07.08-22.44.32:328][822]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2018.07.08-22.44.32:328][822]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (167)
+[2018.07.08-22.44.32:337][822]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (165)
+[2018.07.08-22.44.32:361][822]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2018.07.08-22.44.32:377][822]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2018.07.08-22.44.32:386][822]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (155)
+[2018.07.08-22.44.32:387][822]LogModuleManager: Shutting down and abandoning module DerivedDataCache (152)
+[2018.07.08-22.44.32:389][822]LogDerivedDataCache: Shutdown
+[2018.07.08-22.44.32:389][822]LogModuleManager: Shutting down and abandoning module XGEController (150)
+[2018.07.08-22.44.32:389][822]LogXGEController: Cleaning working directory: C:/Users/morga/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.08-22.44.32:389][822]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
+[2018.07.08-22.44.32:389][822]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
+[2018.07.08-22.44.32:398][822]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
+[2018.07.08-22.44.32:405][822]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
+[2018.07.08-22.44.32:414][822]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
+[2018.07.08-22.44.32:424][822]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
+[2018.07.08-22.44.32:447][822]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
+[2018.07.08-22.44.32:448][822]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
+[2018.07.08-22.44.32:448][822]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
+[2018.07.08-22.44.32:448][822]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
+[2018.07.08-22.44.32:455][822]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
+[2018.07.08-22.44.32:455][822]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2018.07.08-22.44.32:456][822]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (91)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.07.08-22.44.32:457][822]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.07.08-22.44.32:458][822]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.07.08-22.44.32:458][822]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.07.08-22.44.32:458][822]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.07.08-22.44.32:468][822]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.07.08-22.44.32:468][822]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.07.08-22.44.32:468][822]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.07.08-22.44.32:468][822]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.07.08-22.44.32:468][822]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.07.08-22.44.32:504][822]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.07.08-22.44.32:522][822]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.07.08-22.44.32:538][822]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.07.08-22.44.32:538][822]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6047A18E-4BB0-3663-46A2-4EB2FE1AB5A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=7e5b2c014c7bea667e7322b9c64033a5%7C95d8a0419b8b4b2ca55b199c7d55eef6%7Ce7ce1c4d-2e3f-4dea-ab5b-de732cb48466&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.08-22.44.32:542][822]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.07.08-22.44.32:567][822]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.07.08-22.44.32:577][822]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.07.08-22.44.32:588][822]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.07.08-22.44.32:607][822]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.07.08-22.44.32:609][822]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.08-22.44.32:609][822]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.08-22.44.32:609][822]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.08-22.44.32:623][822]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.08-22.44.32:643][822]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.08-22.44.32:643][822]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.08-22.44.32:659][822]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.08-22.44.32:659][822]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.08-22.44.32:659][822]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.08-22.44.32:659][822]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.08-22.44.32:671][822]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.08-22.44.32:671][822]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.08-22.44.32:681][822]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.08-22.44.32:693][822]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.08-22.44.32:723][822]LogExit: Exiting.
+[2018.07.08-22.44.32:734][822]Log file closed, 07/09/18 00:44:32

@@ -112,9 +112,15 @@
     <ClInclude Include="..\..\Source\BattleTank\Public\SprungWheel.h">
       <Filter>Source\BattleTank\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BattleTank\Public\SpawnPoint.h">
+      <Filter>Source\BattleTank\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BattleTank\Private\SprungWheel.cpp">
+      <Filter>Source\BattleTank\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleTank\Private\SpawnPoint.cpp">
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
   </ItemGroup>

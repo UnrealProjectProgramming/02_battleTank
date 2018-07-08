@@ -267,6 +267,7 @@
     <ClCompile Include="..\..\Source\BattleTank\BattleTankGameMode.cpp" />
     <ClInclude Include="..\..\Source\BattleTank\BattleTankGameMode.h" />
     <ClCompile Include="..\..\Source\BattleTank\Private\Projectile.cpp" />
+    <ClCompile Include="..\..\Source\BattleTank\Private\SpawnPoint.cpp" />
     <ClCompile Include="..\..\Source\BattleTank\Private\SprungWheel.cpp" />
     <ClCompile Include="..\..\Source\BattleTank\Private\Tank.cpp" />
     <ClCompile Include="..\..\Source\BattleTank\Private\TankAIController.cpp" />
@@ -277,6 +278,7 @@
     <ClCompile Include="..\..\Source\BattleTank\Private\TankTrack.cpp" />
     <ClCompile Include="..\..\Source\BattleTank\Private\TankTurret.cpp" />
     <ClInclude Include="..\..\Source\BattleTank\Public\Projectile.h" />
+    <ClInclude Include="..\..\Source\BattleTank\Public\SpawnPoint.h" />
     <ClInclude Include="..\..\Source\BattleTank\Public\SprungWheel.h" />
     <ClInclude Include="..\..\Source\BattleTank\Public\Tank.h" />
     <ClInclude Include="..\..\Source\BattleTank\Public\TankAIController.h" />
