@@ -596,3 +596,381 @@ LogInit: Object subsystem initialized
 [2018.07.07-23.17.18:981][389]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000199096053c8, Size=40
 [2018.07.07-23.17.19:177][389]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2460 classes and 558 folders.
 [2018.07.07-23.17.19:178][389]Display: HotReload took  3.7s.
+[2018.07.07-23.47.00:302][733]LogHttp: Warning: 0000019A4E10AB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.07-23.47.00:302][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x199095f3fb8 [can pipeline])
+[2018.07.07-23.47.00:302][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 1 (Re-using existing connection! (#17) with host datarouter.ol.epicgames.com)
+[2018.07.07-23.47.00:302][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.0.160.15) port 443 (#17))
+[2018.07.07-23.47.00:303][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 3 (upload completely sent off: 365 out of 365 bytes)
+[2018.07.07-23.47.00:303][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.07.07-23.47.00:303][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.07.07-23.47.00:303][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 6 (Closing connection 17)
+[2018.07.07-23.47.00:303][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4C463362-4E28-9457-04FA-CFAB35F6C58C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=7e5b2c014c7bea667e7322b9c64033a5%7C95d8a0419b8b4b2ca55b199c7d55eef6%7Ce7ce1c4d-2e3f-4dea-ab5b-de732cb48466&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.07.07-23.47.00:304][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.07-23.47.00:304][733]LogHttp: Warning: 0000019A4E10AB00: libcurl info message cache 9 (Closing connection 18)
+[2018.07.07-23.52.02:858][320]LogSlate: Window 'Save Content' being destroyed
+[2018.07.07-23.52.02:897][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.07-23.52.02:944][320]LogSavePackage: Save=2.23ms
+[2018.07.07-23.52.02:944][320]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest9A79742341D8E076ECB3C7849041EB48.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.07-23.52.02:945][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.07-23.52.02:945][320]LogFileHelpers: Saving map 'SprintTest' took 0.083
+[2018.07.07-23.52.02:984][320]Cmd: MAP LOAD FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.07-23.52.02:984][320]LightingResults: New page: Lighting Build
+[2018.07.07-23.52.02:987][320]LoadErrors: New page: Loading map: SprintTest.umap
+[2018.07.07-23.52.03:011][320]MapCheck: New page: Map Check
+[2018.07.07-23.52.03:011][320]LightingResults: New page: Lighting Build
+[2018.07.07-23.52.03:060][320]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019909606c78, Size=40
+[2018.07.07-23.52.03:074][320]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.07-23.52.03:074][320]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.07-23.52.03:103][320]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.07-23.52.03:130][320]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 26.968ms to complete.
+[2018.07.07-23.52.03:132][320]LogFileHelpers: Loading map 'SprintTest' took 0.185
+[2018.07.07-23.52.11:506][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.07-23.52.14:779][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.07-23.52.21:843][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.07.07-23.52.22:112][448]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.07.07-23.52.23:633][625]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.07.07-23.52.24:681][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.07-23.52.34:888][950]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.07.07-23.52.42:477][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.07-23.53.10:940][748]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.07.07-23.53.12:567][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.07-23.53.25:566][369]Cmd: TRANSACTION UNDO
+[2018.07.07-23.53.25:566][369]LogEditorTransaction: Undo Scale Actors
+[2018.07.07-23.53.29:436][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.07-23.53.53:094][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.07-23.53.57:508][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.07-23.53.57:512][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.07-23.53.57:541][ 59]LogSavePackage: Save=12.01ms
+[2018.07.07-23.53.57:541][ 59]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest2FABE793411CC369C51DF6843908B5D4.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.07-23.53.57:542][ 59]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.07-23.53.57:708][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.07-23.53.57:733][ 72]LogSavePackage: Save=7.84ms
+[2018.07.07-23.53.57:733][ 72]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest479D3A6A4215F56839A8F68844002ED0.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.07-23.53.57:733][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.07-23.54.41:781][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.07-23.55.10:575][972]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.07.08-00.03.08:038][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.03.08:046][720]LogSavePackage: Save=5.87ms
+[2018.07.08-00.03.08:046][720]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTestF514C55F464EC59B8CCBD68229808BFD.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.03.08:047][720]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.03.08:973][831]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.03.09:485][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.03.09:492][865]LogSavePackage: Save=4.84ms
+[2018.07.08-00.03.09:492][865]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTestFCDF981B455AC7B37D7DB89DF70312BF.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.03.09:493][865]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.04.59:842][770]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.05.00:523][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.05.00:529][828]LogSavePackage: Save=4.93ms
+[2018.07.08-00.05.00:529][828]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest186D070C4CCB7F6EC1A8EFA6B98FB73D.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.05.00:530][828]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.05.13:464][317]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_144.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.05.15:903][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.05.15:915][603]LogSavePackage: Save=10.68ms
+[2018.07.08-00.05.15:915][603]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest3BCE03E742CD0292D48B71B834447055.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.05.15:915][603]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.05.16:724][700]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.05.16:926][700]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_163.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.05.24:995][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.05.36:551][  5]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.05.36:562][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.05.36:575][  5]LogSavePackage: Save=10.85ms
+[2018.07.08-00.05.36:575][  5]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest01A4A6F84176318981755AAE653A4DA8.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.05.36:575][  5]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.05.41:325][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.05.41:328][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.05.41:334][553]LogSavePackage: Save=5.12ms
+[2018.07.08-00.05.41:334][553]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest657C6CBC470474D838B674ABDF279809.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.05.41:335][553]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.05.42:039][623]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.05.42:248][623]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_963.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.05.42:655][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.05.42:667][662]LogSavePackage: Save=10.95ms
+[2018.07.08-00.05.42:667][662]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest822D2F0448E0D1F5DAC36CBCFA512A54.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.05.42:668][662]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.05.58:349][521]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.05.58:553][521]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1054.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.05.58:877][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.05.58:889][542]LogSavePackage: Save=10.82ms
+[2018.07.08-00.05.58:889][542]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest7EE24AB24F0BC0C6329CCEA9D16EA2A2.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.05.58:890][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.06.06:071][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.06.06:171][379]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.06.06:182][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.06.06:182][379]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:06:06)
+[2018.07.08-00.06.06:182][379]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.06.06:184][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001483s)
+[2018.07.08-00.06.06:184][379]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.06.06:184][379]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2018.07.08-00.06.06:184][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002189s)
+[2018.07.08-00.06.06:211][379]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.06.06:217][379]LogInit: FAudioDevice initialized.
+[2018.07.08-00.06.06:250][379]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.06.06:252][379]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.06.06
+[2018.07.08-00.06.06:290][379]LogWorld: Bringing up level for play took: 0.039172
+[2018.07.08-00.06.06:295][379]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.635
+[2018.07.08-00.06.11:598][993]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.06.14:659][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.06.45:891][239]LogSavePackage: Save=8.97ms
+[2018.07.08-00.06.45:891][239]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest_Auto1E7C599AB44FABA32FD1AD7AE06BD153C.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto1.umap'
+[2018.07.08-00.06.45:891][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto1.umap
+[2018.07.08-00.06.45:892][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/SprintTest' took 0.059
+[2018.07.08-00.06.45:892][239]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2018.07.08-00.09.16:149][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.09.25:350][943]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.09.25:358][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.09.25:358][943]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:09:25)
+[2018.07.08-00.09.25:358][943]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.09.25:361][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002184s)
+[2018.07.08-00.09.25:362][943]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.09.25:362][943]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2018.07.08-00.09.25:362][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002961s)
+[2018.07.08-00.09.25:397][943]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.09.25:403][943]LogInit: FAudioDevice initialized.
+[2018.07.08-00.09.25:433][943]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.09.25:434][943]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.09.25
+[2018.07.08-00.09.25:434][943]LogWorld: Bringing up level for play took: 0.000598
+[2018.07.08-00.09.25:435][943]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.505
+[2018.07.08-00.09.31:264][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.09.32:097][718]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.09.32:308][718]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1127.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.09.32:472][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.09.32:484][730]LogSavePackage: Save=10.76ms
+[2018.07.08-00.09.32:485][730]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTestE71D8D8741E92DEA8C9057B810239C00.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.09.32:486][730]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.09.33:697][874]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.09.33:707][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.09.33:707][874]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:09:33)
+[2018.07.08-00.09.33:707][874]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.09.33:709][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001612s)
+[2018.07.08-00.09.33:709][874]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.09.33:709][874]LogPlayLevel: PIE: World Init took: (0.000449s)
+[2018.07.08-00.09.33:709][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002162s)
+[2018.07.08-00.09.33:726][874]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.09.33:731][874]LogInit: FAudioDevice initialized.
+[2018.07.08-00.09.33:761][874]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.09.33:762][874]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.09.33
+[2018.07.08-00.09.33:762][874]LogWorld: Bringing up level for play took: 0.000591
+[2018.07.08-00.09.33:763][874]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.832
+[2018.07.08-00.09.39:310][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.09.39:392][540]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.09.39:399][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.09.39:399][540]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:09:39)
+[2018.07.08-00.09.39:400][540]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.09.39:401][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001582s)
+[2018.07.08-00.09.39:402][540]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.09.39:402][540]LogPlayLevel: PIE: World Init took: (0.000457s)
+[2018.07.08-00.09.39:402][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002142s)
+[2018.07.08-00.09.39:419][540]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.09.39:424][540]LogInit: FAudioDevice initialized.
+[2018.07.08-00.09.39:460][540]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.09.39:463][540]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.09.39
+[2018.07.08-00.09.39:464][540]LogWorld: Bringing up level for play took: 0.001872
+[2018.07.08-00.09.39:466][540]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.536
+[2018.07.08-00.09.43:134][976]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.09.45:018][199]Set new viewmode: Unlit
+[2018.07.08-00.09.48:968][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.09.49:076][676]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.09.49:084][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.09.49:084][676]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:09:49)
+[2018.07.08-00.09.49:084][676]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.09.49:085][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001586s)
+[2018.07.08-00.09.49:086][676]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.09.49:086][676]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2018.07.08-00.09.49:086][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002255s)
+[2018.07.08-00.09.49:103][676]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.09.49:109][676]LogInit: FAudioDevice initialized.
+[2018.07.08-00.09.49:146][676]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.09.49:149][676]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.09.49
+[2018.07.08-00.09.49:150][676]LogWorld: Bringing up level for play took: 0.001797
+[2018.07.08-00.09.49:152][676]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.222
+[2018.07.08-00.09.52:810][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.09.54:661][334]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.09.56:252][525]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.10.00:853][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.10.05:913][665]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.10.11:057][251]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.10.26:282][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.11.02:886][258]LogClass: Warning: In asset 'None', there is an enum property of type 'EDetailMode' with an invalid value of ''
+[2018.07.08-00.11.02:886][258]LogClass: Warning: In asset 'None', there is an enum property of type 'EDetailMode' with an invalid value of ''
+[2018.07.08-00.11.02:886][258]LogClass: Warning: In asset 'None', there is an enum property of type 'EDetailMode' with an invalid value of ''
+[2018.07.08-00.17.38:298][829]LogSavePackage: Save=13.49ms
+[2018.07.08-00.17.38:298][829]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest_Auto2AABCF92640018D8AD64BC385832EB3AA.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto2.umap'
+[2018.07.08-00.17.38:299][829]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto2.umap
+[2018.07.08-00.17.38:299][829]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/SprintTest' took 0.033
+[2018.07.08-00.17.38:299][829]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.033
+[2018.07.08-00.18.38:882][703]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.18.50:763][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.18.59:320][ 95]LogClass: Warning: In asset 'None', there is an enum property of type 'ELinearConstraintMotion' with an invalid value of ''
+[2018.07.08-00.18.59:320][ 95]LogClass: Warning: In asset 'None', there is an enum property of type 'ELinearConstraintMotion' with an invalid value of ''
+[2018.07.08-00.18.59:320][ 95]LogClass: Warning: In asset 'None', there is an enum property of type 'ELinearConstraintMotion' with an invalid value of ''
+[2018.07.08-00.19.13:730][809]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.19.13:954][809]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1255.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.19.14:262][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.19.14:276][839]LogSavePackage: Save=11.54ms
+[2018.07.08-00.19.14:276][839]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTestC2CA5F5B4ED19A24ACD22DB8EBA68F1B.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.19.14:277][839]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.19.15:329][964]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.19.15:338][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.19.15:338][964]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:19:15)
+[2018.07.08-00.19.15:338][964]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.19.15:340][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001683s)
+[2018.07.08-00.19.15:340][964]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.19.15:340][964]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2018.07.08-00.19.15:340][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002319s)
+[2018.07.08-00.19.15:359][964]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.19.15:364][964]LogInit: FAudioDevice initialized.
+[2018.07.08-00.19.15:409][964]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.19.15:411][964]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.19.15
+[2018.07.08-00.19.15:412][964]LogWorld: Bringing up level for play took: 0.001846
+[2018.07.08-00.19.15:414][964]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.484
+[2018.07.08-00.19.19:278][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.19.20:601][568]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.19.44:076][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.19.46:824][413]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.19.46:825][413]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.19.46:825][413]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.19.54:540][331]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.19.54:756][331]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1383.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.19.54:871][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.19.54:884][338]LogSavePackage: Save=11.20ms
+[2018.07.08-00.19.54:884][338]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest2C4EA3994A26DA659BF94AAF7CBC058E.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.19.54:885][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.19.56:301][507]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.19.56:311][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.19.56:312][507]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:19:56)
+[2018.07.08-00.19.56:312][507]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.19.56:313][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001657s)
+[2018.07.08-00.19.56:314][507]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.19.56:314][507]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2018.07.08-00.19.56:314][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002279s)
+[2018.07.08-00.19.56:331][507]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.19.56:336][507]LogInit: FAudioDevice initialized.
+[2018.07.08-00.19.56:377][507]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.19.56:381][507]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.19.56
+[2018.07.08-00.19.56:382][507]LogWorld: Bringing up level for play took: 0.003065
+[2018.07.08-00.19.56:386][507]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.545
+[2018.07.08-00.19.59:925][928]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.20.01:241][ 70]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.20.18:460][985]LogActor: Warning: ConstraintTest_2030 is outside the world bounds!
+[2018.07.08-00.20.20:205][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.20.21:314][290]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.20.21:318][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.08-00.20.21:343][290]LogSavePackage: Save=11.75ms
+[2018.07.08-00.20.21:343][290]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest34EE53C346163B0C8F0CA0A0D2047FB6.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.08-00.20.21:344][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.08-00.20.24:377][644]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.20.24:377][644]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.20.24:377][644]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.20.29:797][286]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.20.30:010][286]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1481.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.20.30:236][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.20.30:249][306]LogSavePackage: Save=11.16ms
+[2018.07.08-00.20.30:249][306]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest106DFE0F42EE515200C915ACC363EE8B.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.20.30:250][306]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.20.31:455][442]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.20.31:465][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.20.31:465][442]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:20:31)
+[2018.07.08-00.20.31:465][442]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.20.31:467][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001611s)
+[2018.07.08-00.20.31:467][442]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.20.31:467][442]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2018.07.08-00.20.31:467][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002177s)
+[2018.07.08-00.20.31:484][442]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.20.31:490][442]LogInit: FAudioDevice initialized.
+[2018.07.08-00.20.31:522][442]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.20.31:523][442]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.20.31
+[2018.07.08-00.20.31:523][442]LogWorld: Bringing up level for play took: 0.000569
+[2018.07.08-00.20.31:524][442]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.594
+[2018.07.08-00.20.34:414][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.20.38:785][261]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.21.02:063][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.25.38:872][282]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.25.38:872][282]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.25.38:872][282]LogClass: Warning: In asset 'None', there is an enum property of type 'EAngularConstraintMotion' with an invalid value of ''
+[2018.07.08-00.25.55:824][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.25.55:838][587]LogSavePackage: Save=12.35ms
+[2018.07.08-00.25.55:838][587]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTestF383ABB94A821F4B5B8D07B7C584BF9E.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.25.55:839][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.26.03:433][489]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.26.03:649][489]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1698.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.26.03:908][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.26.03:923][512]LogSavePackage: Save=13.78ms
+[2018.07.08-00.26.03:923][512]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTestB1B9949048F34059D79F1CB17CADD0CE.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.26.03:924][512]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.26.05:854][743]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.26.05:864][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.26.05:864][743]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:26:05)
+[2018.07.08-00.26.05:864][743]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.26.05:866][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001685s)
+[2018.07.08-00.26.05:867][743]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.26.05:867][743]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2018.07.08-00.26.05:867][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002311s)
+[2018.07.08-00.26.05:883][743]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.26.05:889][743]LogInit: FAudioDevice initialized.
+[2018.07.08-00.26.05:919][743]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.26.05:921][743]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.26.05
+[2018.07.08-00.26.05:922][743]LogWorld: Bringing up level for play took: 0.001362
+[2018.07.08-00.26.05:924][743]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.994
+[2018.07.08-00.26.09:836][198]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.26.16:663][941]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.07.08-00.26.16:864][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.26.23:939][788]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.26.24:147][788]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1765.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.26.24:348][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.26.24:360][804]LogSavePackage: Save=10.73ms
+[2018.07.08-00.26.24:360][804]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest72DDCFD843ECE1EE30076EB62535980F.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.26.24:361][804]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.26.25:343][920]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.26.25:352][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.26.25:352][920]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:26:25)
+[2018.07.08-00.26.25:352][920]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.26.25:354][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001595s)
+[2018.07.08-00.26.25:354][920]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.26.25:354][920]LogPlayLevel: PIE: World Init took: (0.000454s)
+[2018.07.08-00.26.25:354][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002151s)
+[2018.07.08-00.26.25:371][920]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.26.25:376][920]LogInit: FAudioDevice initialized.
+[2018.07.08-00.26.25:411][920]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.26.25:413][920]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.26.25
+[2018.07.08-00.26.25:413][920]LogWorld: Bringing up level for play took: 0.000700
+[2018.07.08-00.26.25:414][920]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.483
+[2018.07.08-00.26.27:969][225]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.26.29:373][385]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.26.37:404][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.26.42:616][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.26.42:708][875]BlueprintLog: New page: Compile ConstraintTest
+[2018.07.08-00.26.42:919][875]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.ConstraintTest_C_1898.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.08-00.26.43:225][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experiments/ConstraintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset" SILENT=true
+[2018.07.08-00.26.43:237][896]LogSavePackage: Save=10.85ms
+[2018.07.08-00.26.43:237][896]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/ConstraintTest190E5BF249C01477833FF9833DFFFC64.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset'
+[2018.07.08-00.26.43:238][896]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Experiments/ConstraintTest.uasset
+[2018.07.08-00.26.44:309][ 24]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.08-00.26.44:318][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.08-00.26.44:319][ 24]PIE: New page: PIE session: SprintTest (8 Jul 2018 04:26:44)
+[2018.07.08-00.26.44:319][ 24]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.08-00.26.44:320][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001616s)
+[2018.07.08-00.26.44:321][ 24]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.08-00.26.44:321][ 24]LogPlayLevel: PIE: World Init took: (0.000454s)
+[2018.07.08-00.26.44:321][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002174s)
+[2018.07.08-00.26.44:338][ 24]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.08-00.26.44:343][ 24]LogInit: FAudioDevice initialized.
+[2018.07.08-00.26.44:383][ 24]LogLoad: Game class is 'GameModeBase'
+[2018.07.08-00.26.44:386][ 24]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.08-02.26.44
+[2018.07.08-00.26.44:387][ 24]LogWorld: Bringing up level for play took: 0.001773
+[2018.07.08-00.26.44:389][ 24]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.541
+[2018.07.08-00.26.49:342][610]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.08-00.26.51:328][837]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2018.07.08-00.27.03:960][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.08-00.27.07:404][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.08-00.27.07:428][685]LogSavePackage: Save=9.79ms
+[2018.07.08-00.27.07:428][685]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest41D5F55341431325121C66A1F4915764.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.08-00.27.07:429][685]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.08-00.27.07:438][685]LogFileHelpers: Saving map 'SprintTest' took 0.063
+[2018.07.08-00.27.09:855][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.08-00.27.09:879][974]LogSavePackage: Save=9.77ms
+[2018.07.08-00.27.09:879][974]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest1C8F38EA4D082B377ABC5281A315A722.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.08-00.27.09:879][974]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.08-00.27.10:048][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.08-00.27.10:071][992]LogSavePackage: Save=9.55ms
+[2018.07.08-00.27.10:071][992]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest0F6C400F4F64D40B8E67ABA07C80E13E.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.08-00.27.10:072][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
