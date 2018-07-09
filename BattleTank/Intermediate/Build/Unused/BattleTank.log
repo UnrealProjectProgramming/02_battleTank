@@ -1,5 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-  Target is up to date
+  Performing 3 actions (9 in parallel)
+  SpawnPoint.cpp
+  [2/3] Link UE4Editor-BattleTank-1191.dll
+  [3/3] Link UE4Editor-BattleTank-1191.lib
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.exp
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.suppressed.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 1.13 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 1.88 seconds (Local executor: 1.22 seconds)
