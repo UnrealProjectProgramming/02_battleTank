@@ -1,10 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-  Performing 3 actions (9 in parallel)
-  SpawnPoint.cpp
-  [2/3] Link UE4Editor-BattleTank-1191.dll
-  [3/3] Link UE4Editor-BattleTank-1191.lib
-     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.exp
-     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.suppressed.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-1191.suppressed.exp
+  Parsing headers for BattleTankEditor
+    Running UnrealHeaderTool "N:\Programming\Unreal\02_battleTank\BattleTank\BattleTank.uproject" "N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleTankEditor in 6.0080894 seconds
+  Performing 4 actions (9 in parallel)
+  SprungWheel.gen.cpp
+  SprungWheel.cpp
+N:\Programming\Unreal\02_battleTank\BattleTank\Source\BattleTank\Private\SprungWheel.cpp(50): warning C4458: declaration of 'RootComponent' hides class member
+  N:\Program Files\EpicGames\UE_4.19\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(496): note: see declaration of 'AActor::RootComponent'
+  [3/4] Link UE4Editor-BattleTank-514.dll
+  [4/4] Link UE4Editor-BattleTank-514.lib
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-514.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-514.exp
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-514.suppressed.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-514.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 1.88 seconds (Local executor: 1.22 seconds)
+  Total build time: 12.25 seconds (Local executor: 5.54 seconds)

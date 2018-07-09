@@ -29,11 +29,8 @@ protected:
 	UPhysicsConstraintComponent* PhysicsConstraint = nullptr;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Custom Physics Constraint")
-	UStaticMeshComponent* Wheel = nullptr;
+	UStaticMeshComponent* Wheel = nullptr;	
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Custom Physics Constraint")
-	UStaticMeshComponent* Mass = nullptr;
-
-	
-	
+private:
+	void SetupSuspension();
 };

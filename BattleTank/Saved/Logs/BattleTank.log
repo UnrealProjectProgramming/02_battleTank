@@ -613,3 +613,744 @@ LogInit: Object subsystem initialized
 [2018.07.09-18.01.29:435][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
 [2018.07.09-18.01.38:936][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
 [2018.07.09-18.01.38:977][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2018.07.09-18.02.01:808][368]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.09-18.05.06:975][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.05.10:844][775]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.05.10:878][775]PIE: Warning: AttachTo: '/Game/_Levels/SprintTest.SprintTest:PersistentLevel.SprungWheel_BP_5.Physics Constraint' root component cannot be attached to other components in the same actor. Aborting.
+[2018.07.09-18.05.11:022][775]Cmd: MAP LOAD FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.09-18.05.11:022][775]LightingResults: New page: Lighting Build
+[2018.07.09-18.05.11:023][775]LoadErrors: New page: Loading map: SprintTest.umap
+[2018.07.09-18.05.11:061][775]MapCheck: New page: Map Check
+[2018.07.09-18.05.11:061][775]LightingResults: New page: Lighting Build
+[2018.07.09-18.05.11:080][775]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d160767f0, Size=40
+[2018.07.09-18.05.11:170][775]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.09-18.05.11:198][775]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.09-18.05.11:228][775]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 29.498ms to complete.
+[2018.07.09-18.05.11:228][775]LogFileHelpers: Loading map 'SprintTest' took 0.328
+[2018.07.09-18.05.16:650][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.05.29:836][745]LogEditorActor: Deleted Actor: SprungWheel_BP_C
+[2018.07.09-18.05.29:837][745]LogEditorActor: Deleted Actor: ConstraintTest_C
+[2018.07.09-18.05.29:852][745]LogEditorActor: Deleted 2 Actors (0.048 secs)
+[2018.07.09-18.05.31:221][906]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2018.07.09-18.05.33:214][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.05.33:311][140]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.05.33:320][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.05.33:320][140]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:05:33)
+[2018.07.09-18.05.33:320][140]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.05.33:322][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001877s)
+[2018.07.09-18.05.33:322][140]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.05.33:322][140]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2018.07.09-18.05.33:323][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002539s)
+[2018.07.09-18.05.33:380][140]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.05.33:385][140]LogInit: FAudioDevice initialized.
+[2018.07.09-18.05.33:428][140]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.05.33:436][140]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.05.33
+[2018.07.09-18.05.33:436][140]LogWorld: Bringing up level for play took: 0.000970
+[2018.07.09-18.05.33:437][140]LogTemp: Warning: NOT NULL: Tank_BP_53
+[2018.07.09-18.05.33:437][140]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.891
+[2018.07.09-18.11.19:273][342]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.07.09-18.11.19:903][342]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d238cb1e0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.09-18.11.19:915][342]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d238cb1d8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.09-18.11.21:188][342]LogSlate: Took 0.012246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.09-18.11.21:582][343]LogSlate: Took 0.010091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.09-18.11.35:041][865]LogRenderer: Reallocating scene render targets to support 1576x1000 Format 10 NumSamples 1 (Frame:1).
+[2018.07.09-18.11.43:306][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.11.56:326][367]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8d3842a0, Size=4, Default__SKEL_Tank_BP_C Function /Game/Tank/Tank_BP.SKEL_Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.12.10:145][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.12.14:400][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.12.22:118][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.12.24:652][688]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8d3842a0, Size=4
+[2018.07.09-18.12.24:652][688]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8a06a720, Size=4, Default__SKEL_Tank_BP_C Function /Engine/Transient.REINST_SKEL_Tank_BP_C_36:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.12.24:654][688]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8a068518, Size=4, Default__SKEL_Tank_BP_C Function /Game/Tank/Tank_BP.SKEL_Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.12.30:988][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.12.35:232][931]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8a068518, Size=4
+[2018.07.09-18.12.35:232][931]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8a068518, Size=4, Default__SKEL_Tank_BP_C Function /Engine/Transient.REINST_SKEL_Tank_BP_C_38:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.12.35:234][931]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8a06a3a0, Size=4, Default__SKEL_Tank_BP_C Function /Game/Tank/Tank_BP.SKEL_Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.12.35:252][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.09-18.12.42:181][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.13.03:712][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.13.03:836][335]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.13.03:881][335]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8a06a3a0, Size=4
+[2018.07.09-18.13.03:881][335]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8d3854b0, Size=4, Default__SKEL_Tank_BP_C Function /Engine/Transient.REINST_SKEL_Tank_BP_C_40:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.13.03:893][335]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d160525c0, Size=424
+[2018.07.09-18.13.03:894][335]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8d87acc0, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_42:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.13.03:898][335]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d8db3a240, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.13.04:149][335]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8a06a720, Size=4
+[2018.07.09-18.13.04:149][335]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8a068518, Size=4
+[2018.07.09-18.13.04:149][335]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8d3854b0, Size=4
+[2018.07.09-18.13.04:397][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.13.04:612][336]LogSavePackage: Save=163.10ms
+[2018.07.09-18.13.04:612][336]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BP98062A1247F8D8EC819C20ADC3FB93C3.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.13.04:637][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.13.09:651][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.09-18.13.09:680][928]LogSavePackage: Save=14.61ms
+[2018.07.09-18.13.09:680][928]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest79060BE1474A2FC8E2351299C5B10F50.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.09-18.13.09:681][928]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.09-18.13.47:564][135]LogHotReload: New module detected: UE4Editor-BattleTank-60.dll
+[2018.07.09-18.13.48:242][138]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.09-18.13.48:267][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8d87acc0, Size=424
+[2018.07.09-18.13.48:273][138]LogClass: Could not find existing class SprungWheel in package /Script/BattleTank for HotReload, assuming new class
+[2018.07.09-18.13.48:283][138]LogClass: EFiringState HotReload.
+[2018.07.09-18.13.48:310][138]LogHotReload: Re-instancing SprungWheel after hot-reload.
+[2018.07.09-18.13.48:315][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d16454d38, Size=4
+[2018.07.09-18.13.48:315][138]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d3e95dce0, Size=4, Default__SprungWheel_BP_C Function /Engine/Transient.REINST_SprungWheel_BP_C_46:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.13.48:316][138]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d3e95ed38, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.13.48:493][138]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0005 seconds. Added 12 classes and 3 folders.
+[2018.07.09-18.13.48:496][138]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2018.07.09-18.13.48:529][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d3e95dce0, Size=4
+[2018.07.09-18.13.48:736][138]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2462 classes and 558 folders.
+[2018.07.09-18.13.48:750][138]Display: HotReload took  0.5s.
+[2018.07.09-18.21.04:425][445]LogHotReload: New module detected: UE4Editor-BattleTank-514.dll
+[2018.07.09-18.21.05:103][448]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.09-18.21.05:156][448]LogClass: EFiringState HotReload.
+[2018.07.09-18.21.05:160][448]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0006 seconds. Added 12 classes and 3 folders.
+[2018.07.09-18.21.05:162][448]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2018.07.09-18.21.05:464][448]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2462 classes and 558 folders.
+[2018.07.09-18.21.05:468][448]Display: HotReload took  0.4s.
+[2018.07.09-18.27.13:073][575]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_1.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.27.17:289][ 77]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.27.17:306][ 77]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d8db3a240, Size=424
+[2018.07.09-18.27.17:306][ 77]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d525b73c0, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_50:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.27.17:310][ 77]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d525b50c0, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.27.17:747][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.27.17:791][ 80]LogSavePackage: Save=41.73ms
+[2018.07.09-18.27.17:791][ 80]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BP608B6FF54C2617E82DBA57954BEE2F60.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.27.17:791][ 80]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.27.17:977][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.27.18:005][ 95]LogSavePackage: Save=26.53ms
+[2018.07.09-18.27.18:005][ 95]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPE13F02EA4AAFE8BD93E2F4B5083E2885.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.27.18:006][ 95]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.27.19:390][261]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.27.19:679][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.27.19:679][261]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:27:19)
+[2018.07.09-18.27.19:679][261]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.27.19:682][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002276s)
+[2018.07.09-18.27.19:682][261]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.27.19:683][261]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2018.07.09-18.27.19:683][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.003409s)
+[2018.07.09-18.27.19:701][261]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d525b73c0, Size=424
+[2018.07.09-18.27.19:747][261]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.27.19:753][261]LogInit: FAudioDevice initialized.
+[2018.07.09-18.27.19:784][261]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.27.19:787][261]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.27.19
+[2018.07.09-18.27.19:787][261]LogWorld: Bringing up level for play took: 0.001092
+[2018.07.09-18.27.19:788][261]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 1.242
+[2018.07.09-18.27.26:862][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.27.26:953][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.27.26:962][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.27.26:962][ 91]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:27:26)
+[2018.07.09-18.27.26:962][ 91]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.27.26:964][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001884s)
+[2018.07.09-18.27.26:964][ 91]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.27.26:965][ 91]LogPlayLevel: PIE: World Init took: (0.000447s)
+[2018.07.09-18.27.26:965][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002448s)
+[2018.07.09-18.27.26:983][ 91]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.27.26:989][ 91]LogInit: FAudioDevice initialized.
+[2018.07.09-18.27.27:023][ 91]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.27.27:026][ 91]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.27.27
+[2018.07.09-18.27.27:026][ 91]LogWorld: Bringing up level for play took: 0.000873
+[2018.07.09-18.27.27:027][ 91]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.481
+[2018.07.09-18.28.03:766][738]LogSavePackage: Save=13.43ms
+[2018.07.09-18.28.03:766][738]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest_Auto1631AA3074EE570DE5B0856BABBDDA4A8.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto1.umap'
+[2018.07.09-18.28.03:767][738]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto1.umap
+[2018.07.09-18.28.03:768][738]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/SprintTest' took 0.073
+[2018.07.09-18.28.03:768][738]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.073
+[2018.07.09-18.33.30:363][510]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.33.30:367][510]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d3e95ed38, Size=4
+[2018.07.09-18.33.30:367][510]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff894d0, Size=4, Default__SprungWheel_BP_C Function /Engine/Transient.REINST_SprungWheel_BP_C_54:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.33.30:368][510]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff89488, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.33.30:577][510]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_3.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.33.30:784][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.33.30:797][529]LogSavePackage: Save=11.89ms
+[2018.07.09-18.33.30:797][529]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP4DC329CD4AA572D47FCE6B9D5F12378A.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.33.30:797][529]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.33.40:493][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.33.49:852][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.33.54:825][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.34.00:001][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.34.06:948][747]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.34.06:963][747]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d525b50c0, Size=424
+[2018.07.09-18.34.06:963][747]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017da82de400, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_58:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.34.06:966][747]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d3fcd2cc0, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.34.07:235][747]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff894d0, Size=4
+[2018.07.09-18.34.07:396][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.34.07:431][757]LogSavePackage: Save=33.25ms
+[2018.07.09-18.34.07:431][757]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPD8CC2F3043EF6C8751112C8534E21333.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.34.07:433][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.34.16:876][854]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.34.16:878][854]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff89488, Size=4
+[2018.07.09-18.34.16:878][854]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff89488, Size=4, Default__SprungWheel_BP_C Function /Engine/Transient.REINST_SprungWheel_BP_C_62:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.34.16:879][854]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff88c90, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.34.17:081][854]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017da82de400, Size=424
+[2018.07.09-18.34.17:082][854]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_4.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.34.24:011][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.34.25:382][813]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.34.25:384][813]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff88c90, Size=4
+[2018.07.09-18.34.25:384][813]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff88c90, Size=4, SprungWheel_BP_C_5 Function /Engine/Transient.REINST_SprungWheel_BP_C_66:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.34.25:385][813]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff8a048, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.34.25:595][813]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff89488, Size=4
+[2018.07.09-18.34.25:595][813]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_6.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.34.25:677][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.34.25:689][820]LogSavePackage: Save=10.33ms
+[2018.07.09-18.34.25:689][820]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPC5BA817D41D95DE705AB3E93B863F9B3.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.34.25:690][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.34.25:899][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.34.25:905][844]LogSavePackage: Save=4.62ms
+[2018.07.09-18.34.25:905][844]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP456AF37E46041F9D0064F68C0AF5AEFA.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.34.25:906][844]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.34.27:328][ 12]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.34.27:343][ 12]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d3fcd2cc0, Size=424
+[2018.07.09-18.34.27:344][ 12]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017da7333040, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_70:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.34.27:347][ 12]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017da803fc80, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.34.27:704][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.34.27:740][ 17]LogSavePackage: Save=33.93ms
+[2018.07.09-18.34.27:740][ 17]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPC22698F84B3DAB46886AD1B092ED3D65.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.34.27:740][ 17]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.34.27:901][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.34.27:930][ 35]LogSavePackage: Save=27.91ms
+[2018.07.09-18.34.27:930][ 35]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BP98CBFB254180A6FD45CE2DB0D2741FEC.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.34.27:931][ 35]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.34.29:931][275]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.34.29:946][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.34.29:946][275]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:34:29)
+[2018.07.09-18.34.29:946][275]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.34.29:948][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002124s)
+[2018.07.09-18.34.29:948][275]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.34.29:949][275]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2018.07.09-18.34.29:949][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002757s)
+[2018.07.09-18.34.29:965][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017da7333040, Size=424
+[2018.07.09-18.34.29:970][275]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.34.29:976][275]LogInit: FAudioDevice initialized.
+[2018.07.09-18.34.30:005][275]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.34.30:008][275]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.34.30
+[2018.07.09-18.34.30:008][275]LogWorld: Bringing up level for play took: 0.000939
+[2018.07.09-18.34.30:009][275]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.537
+[2018.07.09-18.34.41:093][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.34.41:176][590]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.34.41:188][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.34.41:188][590]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:34:41)
+[2018.07.09-18.34.41:188][590]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.34.41:190][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001899s)
+[2018.07.09-18.34.41:190][590]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.34.41:190][590]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2018.07.09-18.34.41:190][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002470s)
+[2018.07.09-18.34.41:211][590]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.34.41:217][590]LogInit: FAudioDevice initialized.
+[2018.07.09-18.34.41:250][590]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.34.41:252][590]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.34.41
+[2018.07.09-18.34.41:252][590]LogWorld: Bringing up level for play took: 0.000881
+[2018.07.09-18.34.41:253][590]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.708
+[2018.07.09-18.34.45:372][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.09-18.34.47:206][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.09-18.34.59:536][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.35.33:724][755]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.35.33:740][755]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017da803fc80, Size=424
+[2018.07.09-18.35.33:740][755]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d222da5c0, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_74:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.35.33:744][755]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d222db040, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.35.34:092][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.35.34:127][757]LogSavePackage: Save=33.00ms
+[2018.07.09-18.35.34:127][757]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPC0C5F2A445276707B33893B8C2188223.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.35.34:128][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.35.45:801][137]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.35.45:803][137]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff8a048, Size=4
+[2018.07.09-18.35.45:803][137]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db5096108, Size=4, Default__SprungWheel_BP_C Function /Engine/Transient.REINST_SprungWheel_BP_C_78:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.35.45:803][137]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db5095878, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.35.46:079][137]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d222da5c0, Size=424
+[2018.07.09-18.35.46:080][137]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_7.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.35.46:264][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.35.46:276][153]LogSavePackage: Save=10.42ms
+[2018.07.09-18.35.46:276][153]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP511751AC4941E30AAE95C481F9B7B989.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.35.46:277][153]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.35.47:752][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.35.47:758][317]LogSavePackage: Save=4.35ms
+[2018.07.09-18.35.47:758][317]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP28F313184EDEF5A45DBABB8F268A57D4.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.35.47:758][317]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.35.49:954][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.09-18.35.49:957][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.35.49:964][573]LogSavePackage: Save=4.57ms
+[2018.07.09-18.35.49:964][573]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP83FD232143822317421878985B417710.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.35.49:964][573]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.35.54:763][135]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.35.54:778][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.35.54:778][135]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:35:54)
+[2018.07.09-18.35.54:778][135]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.35.54:780][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002034s)
+[2018.07.09-18.35.54:781][135]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.35.54:781][135]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2018.07.09-18.35.54:781][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002670s)
+[2018.07.09-18.35.54:802][135]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.35.54:807][135]LogInit: FAudioDevice initialized.
+[2018.07.09-18.35.54:839][135]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.35.54:842][135]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.35.54
+[2018.07.09-18.35.54:843][135]LogWorld: Bringing up level for play took: 0.000935
+[2018.07.09-18.35.54:844][135]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.298
+[2018.07.09-18.36.00:849][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.37.15:253][960]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.37.15:255][960]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db5095878, Size=4
+[2018.07.09-18.37.15:255][960]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff893a8, Size=4, SprungWheel_BP_C_8 Function /Engine/Transient.REINST_SprungWheel_BP_C_82:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.15:256][960]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff89328, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.15:596][960]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_9.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.37.15:925][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.37.15:938][993]LogSavePackage: Save=10.48ms
+[2018.07.09-18.37.15:938][993]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP10AADE1B42FA393D74A671A482FCBED3.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.37.15:938][993]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.37.23:032][834]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.37.23:034][834]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff89328, Size=4
+[2018.07.09-18.37.23:034][834]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db5097570, Size=4, SprungWheel_BP_C_10 Function /Engine/Transient.REINST_SprungWheel_BP_C_86:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.23:035][834]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db50946c8, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.23:429][834]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_11.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.37.23:432][834]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.37.23:434][834]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db50946c8, Size=4
+[2018.07.09-18.37.23:434][834]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db50946c8, Size=4, SprungWheel_BP_C_12 Function /Engine/Transient.REINST_SprungWheel_BP_C_90:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.23:434][834]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db50966e8, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.23:873][834]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_13.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.37.24:872][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.37.24:885][948]LogSavePackage: Save=10.42ms
+[2018.07.09-18.37.24:885][948]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP10FD315E42136DB6721204A8A1843E50.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.37.24:886][948]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.37.25:418][ 12]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.37.25:420][ 12]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db50966e8, Size=4
+[2018.07.09-18.37.25:420][ 12]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db50966e8, Size=4, SprungWheel_BP_C_14 Function /Engine/Transient.REINST_SprungWheel_BP_C_94:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.25:420][ 12]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db5097858, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.37.25:619][ 12]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db50946c8, Size=4
+[2018.07.09-18.37.25:620][ 12]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_15.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.37.25:961][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.37.25:974][ 45]LogSavePackage: Save=10.57ms
+[2018.07.09-18.37.25:974][ 45]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP5B2A7DE146F23E15BFA41B9B1E8C110F.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.37.25:974][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.37.28:513][349]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.37.28:524][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.37.28:524][349]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:37:28)
+[2018.07.09-18.37.28:524][349]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.37.28:526][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001982s)
+[2018.07.09-18.37.28:526][349]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.37.28:526][349]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2018.07.09-18.37.28:527][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002601s)
+[2018.07.09-18.37.28:548][349]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.37.28:554][349]LogInit: FAudioDevice initialized.
+[2018.07.09-18.37.28:588][349]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.37.28:591][349]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.37.28
+[2018.07.09-18.37.28:591][349]LogWorld: Bringing up level for play took: 0.000933
+[2018.07.09-18.37.28:592][349]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.046
+[2018.07.09-18.37.57:096][485]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.37.57:110][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.37.57:111][485]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:37:57)
+[2018.07.09-18.37.57:111][485]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.37.57:113][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001908s)
+[2018.07.09-18.37.57:113][485]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.37.57:113][485]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2018.07.09-18.37.57:113][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002474s)
+[2018.07.09-18.37.57:134][485]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.37.57:140][485]LogInit: FAudioDevice initialized.
+[2018.07.09-18.37.57:174][485]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.37.57:177][485]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.37.57
+[2018.07.09-18.37.57:177][485]LogWorld: Bringing up level for play took: 0.000930
+[2018.07.09-18.37.57:179][485]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.633
+[2018.07.09-18.38.17:401][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.38.17:509][864]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.38.17:520][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.38.17:520][864]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:38:17)
+[2018.07.09-18.38.17:520][864]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.38.17:522][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001917s)
+[2018.07.09-18.38.17:522][864]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.38.17:522][864]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2018.07.09-18.38.17:522][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002479s)
+[2018.07.09-18.38.17:543][864]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.38.17:549][864]LogInit: FAudioDevice initialized.
+[2018.07.09-18.38.17:583][864]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.38.17:586][864]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.38.17
+[2018.07.09-18.38.17:586][864]LogWorld: Bringing up level for play took: 0.000867
+[2018.07.09-18.38.17:587][864]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 1.042
+[2018.07.09-18.38.56:643][600]LogSavePackage: Save=14.86ms
+[2018.07.09-18.38.56:643][600]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest_Auto242064F2C431F91C5F3B3BCA167BF7619.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto2.umap'
+[2018.07.09-18.38.56:644][600]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto2.umap
+[2018.07.09-18.38.56:645][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/SprintTest' took 0.043
+[2018.07.09-18.38.56:645][600]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.043
+[2018.07.09-18.41.23:933][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.41.49:066][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.41.49:416][284]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.41.49:428][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.41.49:428][284]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:41:49)
+[2018.07.09-18.41.49:428][284]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.41.49:431][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002075s)
+[2018.07.09-18.41.49:431][284]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.41.49:431][284]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2018.07.09-18.41.49:431][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002805s)
+[2018.07.09-18.41.49:452][284]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.41.49:458][284]LogInit: FAudioDevice initialized.
+[2018.07.09-18.41.49:490][284]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.41.49:494][284]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.41.49
+[2018.07.09-18.41.49:494][284]LogWorld: Bringing up level for play took: 0.001177
+[2018.07.09-18.41.49:496][284]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.95
+[2018.07.09-18.44.13:299][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.44.13:403][388]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.44.13:415][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.44.13:415][388]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:44:13)
+[2018.07.09-18.44.13:415][388]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.44.13:417][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002081s)
+[2018.07.09-18.44.13:417][388]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.44.13:418][388]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2018.07.09-18.44.13:418][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002820s)
+[2018.07.09-18.44.13:440][388]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.44.13:446][388]LogInit: FAudioDevice initialized.
+[2018.07.09-18.44.13:487][388]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.44.13:492][388]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.44.13
+[2018.07.09-18.44.13:492][388]LogWorld: Bringing up level for play took: 0.000936
+[2018.07.09-18.44.13:493][388]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.948
+[2018.07.09-18.44.22:315][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.44.27:213][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.44.35:803][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.44.40:112][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.44.40:203][520]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.44.40:219][520]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d222db040, Size=424
+[2018.07.09-18.44.40:220][520]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d4eb7fac0, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_98:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.44.40:223][520]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d4eb7fe40, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.44.40:584][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.44.40:621][524]LogSavePackage: Save=34.38ms
+[2018.07.09-18.44.40:621][524]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPC7DB785F427605617DFB0D899D106149.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.44.40:622][524]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.44.40:832][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.44.40:860][541]LogSavePackage: Save=26.64ms
+[2018.07.09-18.44.40:861][541]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPD6F74106461CC4220B11248DE4F2B23E.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.44.40:861][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.44.42:709][762]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.44.42:727][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.44.42:727][762]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:44:42)
+[2018.07.09-18.44.42:727][762]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.44.42:729][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
+[2018.07.09-18.44.42:729][762]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.44.42:729][762]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2018.07.09-18.44.42:729][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002492s)
+[2018.07.09-18.44.42:745][762]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d4eb7fac0, Size=424
+[2018.07.09-18.44.42:750][762]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.44.42:756][762]LogInit: FAudioDevice initialized.
+[2018.07.09-18.44.42:790][762]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.44.42:795][762]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.44.42
+[2018.07.09-18.44.42:795][762]LogWorld: Bringing up level for play took: 0.000927
+[2018.07.09-18.44.42:796][762]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.251
+[2018.07.09-18.45.02:020][ 41]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.45.02:022][ 41]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db5097858, Size=4
+[2018.07.09-18.45.02:022][ 41]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff88380, Size=4, SprungWheel_BP_C_16 Function /Engine/Transient.REINST_SprungWheel_BP_C_102:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.02:022][ 41]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff89f60, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.02:236][ 41]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_17.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.45.02:266][ 44]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.45.02:268][ 44]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff89f60, Size=4
+[2018.07.09-18.45.02:268][ 44]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff89f60, Size=4, SprungWheel_BP_C_18 Function /Engine/Transient.REINST_SprungWheel_BP_C_106:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.02:269][ 44]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff8b438, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.02:532][ 44]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_19.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.45.02:767][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.45.02:780][ 68]LogSavePackage: Save=10.31ms
+[2018.07.09-18.45.02:780][ 68]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP2660DFF245F21D43935DFF87BDF15F32.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.45.02:781][ 68]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.45.04:427][259]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.45.04:438][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.45.04:438][259]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:45:04)
+[2018.07.09-18.45.04:438][259]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.45.04:440][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002000s)
+[2018.07.09-18.45.04:441][259]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.45.04:441][259]LogPlayLevel: PIE: World Init took: (0.000471s)
+[2018.07.09-18.45.04:441][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002578s)
+[2018.07.09-18.45.04:457][259]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff89f60, Size=4
+[2018.07.09-18.45.04:462][259]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.45.04:468][259]LogInit: FAudioDevice initialized.
+[2018.07.09-18.45.04:506][259]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.45.04:514][259]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.45.04
+[2018.07.09-18.45.04:514][259]LogWorld: Bringing up level for play took: 0.000949
+[2018.07.09-18.45.04:515][259]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.03
+[2018.07.09-18.45.15:908][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.45.23:009][457]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.45.23:011][457]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff8b438, Size=4
+[2018.07.09-18.45.23:011][457]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683e858, Size=4, SprungWheel_BP_C_20 Function /Engine/Transient.REINST_SprungWheel_BP_C_110:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.23:011][457]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683f9a0, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.23:225][457]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_21.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.45.23:228][457]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.45.23:230][457]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683f9a0, Size=4
+[2018.07.09-18.45.23:230][457]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683f9a0, Size=4, SprungWheel_BP_C_22 Function /Engine/Transient.REINST_SprungWheel_BP_C_114:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.23:230][457]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683e958, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.45.23:489][457]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_23.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.45.23:941][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.45.23:957][507]LogSavePackage: Save=13.91ms
+[2018.07.09-18.45.23:957][507]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPC403CB0E44E649286F42C88D47DA9835.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.45.23:958][507]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.45.27:242][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.09-18.45.27:260][892]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683f9a0, Size=4
+[2018.07.09-18.45.27:276][892]LogSavePackage: Save=14.02ms
+[2018.07.09-18.45.27:276][892]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest631E1BC441E2FD429D9A8EB6BC2B22B7.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.09-18.45.27:277][892]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.09-18.45.38:796][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.45.38:880][115]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.45.38:891][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.45.38:891][115]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:45:38)
+[2018.07.09-18.45.38:891][115]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.45.38:893][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001927s)
+[2018.07.09-18.45.38:894][115]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.45.38:894][115]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2018.07.09-18.45.38:894][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002539s)
+[2018.07.09-18.45.38:911][115]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683e858, Size=4
+[2018.07.09-18.45.38:911][115]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff893a8, Size=4
+[2018.07.09-18.45.38:911][115]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff88380, Size=4
+[2018.07.09-18.45.38:911][115]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff88c90, Size=4
+[2018.07.09-18.45.38:911][115]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db50966e8, Size=4
+[2018.07.09-18.45.38:911][115]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db5097570, Size=4
+[2018.07.09-18.45.38:911][115]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db5096108, Size=4
+[2018.07.09-18.45.38:916][115]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.45.38:923][115]LogInit: FAudioDevice initialized.
+[2018.07.09-18.45.38:958][115]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.45.38:964][115]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.45.38
+[2018.07.09-18.45.38:965][115]LogWorld: Bringing up level for play took: 0.000927
+[2018.07.09-18.45.38:966][115]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.42
+[2018.07.09-18.49.27:325][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.49.27:407][781]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.49.27:421][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.49.27:421][781]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:49:27)
+[2018.07.09-18.49.27:421][781]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.49.27:424][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002810s)
+[2018.07.09-18.49.27:425][781]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.49.27:425][781]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2018.07.09-18.49.27:425][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.003567s)
+[2018.07.09-18.49.27:448][781]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.49.27:454][781]LogInit: FAudioDevice initialized.
+[2018.07.09-18.49.27:485][781]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.49.27:488][781]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.49.27
+[2018.07.09-18.49.27:488][781]LogWorld: Bringing up level for play took: 0.001038
+[2018.07.09-18.49.27:489][781]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.944
+[2018.07.09-18.49.35:196][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.49.38:530][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.49.43:672][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.49.47:012][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.49.47:087][811]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.49.47:103][811]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d4eb7fe40, Size=424
+[2018.07.09-18.49.47:103][811]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017da3a44800, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_118:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.49.47:106][811]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017da3a473c0, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.49.47:563][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.49.47:599][822]LogSavePackage: Save=33.62ms
+[2018.07.09-18.49.47:599][822]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BP02616F40494E27750AFF77829249D61C.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.49.47:600][822]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.50.08:572][304]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.50.08:573][304]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683e958, Size=4
+[2018.07.09-18.50.08:573][304]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db5095650, Size=4, Default__SprungWheel_BP_C Function /Engine/Transient.REINST_SprungWheel_BP_C_122:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.50.08:574][304]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db5097bc0, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.50.08:791][304]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017da3a44800, Size=424
+[2018.07.09-18.50.08:792][304]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_24.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.50.09:150][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.50.09:164][343]LogSavePackage: Save=11.58ms
+[2018.07.09-18.50.09:164][343]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP4B7DA8EE48C5ED3FEF4D7095D9D6AC85.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.50.09:165][343]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.50.12:603][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.50.12:695][760]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.50.12:709][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.50.12:709][760]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:50:12)
+[2018.07.09-18.50.12:709][760]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.50.12:711][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002036s)
+[2018.07.09-18.50.12:712][760]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.50.12:712][760]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2018.07.09-18.50.12:712][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002676s)
+[2018.07.09-18.50.12:733][760]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.50.12:739][760]LogInit: FAudioDevice initialized.
+[2018.07.09-18.50.12:767][760]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.50.12:770][760]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.50.12
+[2018.07.09-18.50.12:770][760]LogWorld: Bringing up level for play took: 0.000971
+[2018.07.09-18.50.12:771][760]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.226
+[2018.07.09-18.50.25:860][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.50.44:739][558]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.50.44:757][558]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017da3a473c0, Size=424
+[2018.07.09-18.50.44:757][558]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d5e7fa5c0, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_126:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.50.44:760][558]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d5e7fb3c0, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.50.45:340][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.50.45:376][581]LogSavePackage: Save=33.43ms
+[2018.07.09-18.50.45:376][581]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BP8B7CF09844AB54D8D49D8DB4AC9BD8D8.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.50.45:377][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.50.57:539][ 18]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.50.57:541][ 18]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db5097bc0, Size=4
+[2018.07.09-18.50.57:541][ 18]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683f518, Size=4, SprungWheel_BP_C_25 Function /Engine/Transient.REINST_SprungWheel_BP_C_130:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.50.57:542][ 18]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683d100, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.50.57:817][ 18]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d5e7fa5c0, Size=424
+[2018.07.09-18.50.57:818][ 18]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_26.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.50.57:897][ 27]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.50.57:899][ 27]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683d100, Size=4
+[2018.07.09-18.50.57:899][ 27]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683d100, Size=4, SprungWheel_BP_C_27 Function /Engine/Transient.REINST_SprungWheel_BP_C_134:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.50.57:900][ 27]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d1683ee60, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.50.58:222][ 27]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_28.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.50.58:290][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.50.58:303][ 32]LogSavePackage: Save=10.32ms
+[2018.07.09-18.50.58:303][ 32]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BPE5EA4D184D82BF7935B6C7A2F642314D.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.50.58:304][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.50.59:384][160]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-18.50.59:400][160]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d5e7fb3c0, Size=424
+[2018.07.09-18.50.59:400][160]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db34d6940, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_138:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.50.59:404][160]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d17721b40, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-18.50.59:675][160]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683d100, Size=4
+[2018.07.09-18.50.59:866][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-18.50.59:901][172]LogSavePackage: Save=33.39ms
+[2018.07.09-18.50.59:901][172]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BPA5168DB54F57F2F9DB4A8EAB325E17A0.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-18.50.59:902][172]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-18.51.01:275][336]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.51.01:290][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.51.01:290][336]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:51:01)
+[2018.07.09-18.51.01:290][336]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.51.01:292][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002044s)
+[2018.07.09-18.51.01:292][336]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.51.01:293][336]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2018.07.09-18.51.01:293][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002654s)
+[2018.07.09-18.51.01:308][336]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db34d6940, Size=424
+[2018.07.09-18.51.01:314][336]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.51.01:319][336]LogInit: FAudioDevice initialized.
+[2018.07.09-18.51.01:353][336]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.51.01:356][336]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.51.01
+[2018.07.09-18.51.01:356][336]LogWorld: Bringing up level for play took: 0.000958
+[2018.07.09-18.51.01:357][336]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.812
+[2018.07.09-18.52.32:877][160]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.52.32:879][160]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683ee60, Size=4
+[2018.07.09-18.52.32:879][160]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff88138, Size=4, SprungWheel_BP_C_29 Function /Engine/Transient.REINST_SprungWheel_BP_C_142:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.52.32:880][160]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d9ff896f0, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.52.33:090][160]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_30.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.52.33:264][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.52.33:276][178]LogSavePackage: Save=10.12ms
+[2018.07.09-18.52.33:276][178]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP3002FE38467AC59953D6EA9284786ECB.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.52.33:276][178]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.52.34:352][307]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.52.34:363][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.52.34:363][307]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:52:34)
+[2018.07.09-18.52.34:363][307]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.52.34:365][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002100s)
+[2018.07.09-18.52.34:366][307]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.52.34:366][307]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2018.07.09-18.52.34:366][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002712s)
+[2018.07.09-18.52.34:386][307]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.52.34:392][307]LogInit: FAudioDevice initialized.
+[2018.07.09-18.52.34:434][307]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.52.34:436][307]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.52.34
+[2018.07.09-18.52.34:436][307]LogWorld: Bringing up level for play took: 0.000944
+[2018.07.09-18.52.34:437][307]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.109
+[2018.07.09-18.52.37:959][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-18.52.44:606][500]BlueprintLog: New page: Compile SprungWheel_BP
+[2018.07.09-18.52.44:608][500]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff896f0, Size=4
+[2018.07.09-18.52.44:608][500]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db50975e0, Size=4, SprungWheel_BP_C_31 Function /Engine/Transient.REINST_SprungWheel_BP_C_146:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.52.44:609][500]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db50970f0, Size=4, Default__SprungWheel_BP_C Function /Game/Tank/SprungWheel_BP.SprungWheel_BP_C:ExecuteUbergraph_SprungWheel_BP
+[2018.07.09-18.52.44:883][500]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SprungWheel_BP_C_32.Physics Constraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.09-18.52.45:032][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/SprungWheel_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset" SILENT=true
+[2018.07.09-18.52.45:044][513]LogSavePackage: Save=10.05ms
+[2018.07.09-18.52.45:044][513]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprungWheel_BP8EA24B9E461BFB55F6D2A492FADBE52C.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset'
+[2018.07.09-18.52.45:045][513]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/SprungWheel_BP.uasset
+[2018.07.09-18.52.46:397][675]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-18.52.46:409][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-18.52.46:409][675]PIE: New page: PIE session: SprintTest (9 Jul 2018 22:52:46)
+[2018.07.09-18.52.46:409][675]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-18.52.46:411][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001979s)
+[2018.07.09-18.52.46:411][675]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-18.52.46:412][675]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2018.07.09-18.52.46:412][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002589s)
+[2018.07.09-18.52.46:433][675]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-18.52.46:439][675]LogInit: FAudioDevice initialized.
+[2018.07.09-18.52.46:471][675]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-18.52.46:474][675]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.09-20.52.46
+[2018.07.09-18.52.46:474][675]LogWorld: Bringing up level for play took: 0.000945
+[2018.07.09-18.52.46:475][675]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.071
+[2018.07.09-18.55.59:787][ 15]LogSavePackage: Save=13.77ms
+[2018.07.09-18.55.59:787][ 15]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTest_Auto3E20E8E5046203841F63146A6EB73D322.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto3.umap'
+[2018.07.09-18.55.59:803][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Autosaves/Game/_Levels/SprintTest_Auto3.umap
+[2018.07.09-18.55.59:804][ 15]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Levels/SprintTest' took 0.052
+[2018.07.09-18.55.59:804][ 15]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.052
+[2018.07.09-19.22.44:467][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-23.00.01:049][447]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-23.00.01:075][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-23.00.01:075][447]PIE: New page: PIE session: SprintTest (10 Jul 2018 03:00:01)
+[2018.07.09-23.00.01:076][447]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-23.00.01:080][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004238s)
+[2018.07.09-23.00.01:081][447]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-23.00.01:081][447]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2018.07.09-23.00.01:081][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.005536s)
+[2018.07.09-23.00.01:110][447]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-23.00.01:116][447]LogInit: FAudioDevice initialized.
+[2018.07.09-23.00.01:151][447]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-23.00.01:368][447]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.10-01.00.01
+[2018.07.09-23.00.01:369][447]LogWorld: Bringing up level for play took: 0.216063
+[2018.07.09-23.00.01:380][447]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.834
+[2018.07.09-23.00.26:057][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-23.00.39:730][ 53]BlueprintLog: New page: Compile Tank_BP
+[2018.07.09-23.00.39:747][ 53]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d17721b40, Size=424
+[2018.07.09-23.00.39:747][ 53]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017db3d38800, Size=424, Default__Tank_BP_C Function /Engine/Transient.REINST_Tank_BP_C_150:ExecuteUbergraph_Tank_BP
+[2018.07.09-23.00.39:752][ 53]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017da8aa6e80, Size=424, Default__Tank_BP_C Function /Game/Tank/Tank_BP.Tank_BP_C:ExecuteUbergraph_Tank_BP
+[2018.07.09-23.00.40:426][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.07.09-23.00.40:506][ 76]LogSavePackage: Save=33.46ms
+[2018.07.09-23.00.40:506][ 76]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Tank_BP63AAC8CD4CD006050C92CFA549C1D687.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.07.09-23.00.40:507][ 76]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Tank/Tank_BP.uasset
+[2018.07.09-23.00.42:891][343]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db3d38800, Size=424
+[2018.07.09-23.00.44:921][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.09-23.00.44:956][343]LogSavePackage: Save=13.86ms
+[2018.07.09-23.00.44:956][343]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTestC727FE324A159FAB03F98D921C73EFC1.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.09-23.00.44:957][343]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.09-23.00.44:971][343]LogFileHelpers: Saving map 'SprintTest' took 2.069
+[2018.07.09-23.00.45:427][380]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-23.00.45:442][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-23.00.45:442][380]PIE: New page: PIE session: SprintTest (10 Jul 2018 03:00:45)
+[2018.07.09-23.00.45:443][380]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-23.00.45:445][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002094s)
+[2018.07.09-23.00.45:445][380]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-23.00.45:445][380]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2018.07.09-23.00.45:445][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002689s)
+[2018.07.09-23.00.45:462][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d1683f518, Size=4
+[2018.07.09-23.00.45:462][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db5095650, Size=4
+[2018.07.09-23.00.45:462][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017db50975e0, Size=4
+[2018.07.09-23.00.45:462][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d9ff88138, Size=4
+[2018.07.09-23.00.45:467][380]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-23.00.45:473][380]LogInit: FAudioDevice initialized.
+[2018.07.09-23.00.45:505][380]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-23.00.45:507][380]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.10-01.00.45
+[2018.07.09-23.00.45:507][380]LogWorld: Bringing up level for play took: 0.000882
+[2018.07.09-23.00.45:509][380]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.963
+[2018.07.09-23.00.51:383][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-23.00.51:451][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-23.00.51:462][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-23.00.51:462][ 79]PIE: New page: PIE session: SprintTest (10 Jul 2018 03:00:51)
+[2018.07.09-23.00.51:462][ 79]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-23.00.51:464][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001921s)
+[2018.07.09-23.00.51:465][ 79]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-23.00.51:465][ 79]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2018.07.09-23.00.51:465][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002507s)
+[2018.07.09-23.00.51:486][ 79]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-23.00.51:492][ 79]LogInit: FAudioDevice initialized.
+[2018.07.09-23.00.51:520][ 79]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-23.00.51:522][ 79]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.10-01.00.51
+[2018.07.09-23.00.51:523][ 79]LogWorld: Bringing up level for play took: 0.000938
+[2018.07.09-23.00.51:524][ 79]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.978
+[2018.07.09-23.00.59:661][ 33]LogEditorViewport: Clicking on Actor (LMB): Projectile_BP_C (Projectile_BP)
+[2018.07.09-23.01.04:209][430]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2018.07.09-23.01.09:411][897]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2018.07.09-23.01.22:680][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-23.01.22:722][284]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-23.01.22:733][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-23.01.22:734][284]PIE: New page: PIE session: SprintTest (10 Jul 2018 03:01:22)
+[2018.07.09-23.01.22:734][284]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-23.01.22:736][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001909s)
+[2018.07.09-23.01.22:736][284]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-23.01.22:736][284]LogPlayLevel: PIE: World Init took: (0.000457s)
+[2018.07.09-23.01.22:736][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002476s)
+[2018.07.09-23.01.22:758][284]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-23.01.22:764][284]LogInit: FAudioDevice initialized.
+[2018.07.09-23.01.22:796][284]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-23.01.22:798][284]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.10-01.01.22
+[2018.07.09-23.01.22:798][284]LogWorld: Bringing up level for play took: 0.001007
+[2018.07.09-23.01.22:800][284]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest 0.254
+[2018.07.09-23.01.30:052][128]LogEditorViewport: Clicking on Actor (LMB): Tank_BP_C (Tank_BP)
+[2018.07.09-23.01.35:602][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.09-23.01.35:694][748]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.09-23.01.35:706][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.09-23.01.35:706][748]PIE: New page: PIE session: SprintTest (10 Jul 2018 03:01:35)
+[2018.07.09-23.01.35:707][748]LogPlayLevel: Creating play world package: /Game/_Levels/UEDPIE_0_SprintTest
+[2018.07.09-23.01.35:709][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001959s)
+[2018.07.09-23.01.35:709][748]LogAIModule: Creating AISystem for world SprintTest
+[2018.07.09-23.01.35:709][748]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2018.07.09-23.01.35:709][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Levels/SprintTest.SprintTest to /Game/_Levels/UEDPIE_0_SprintTest.SprintTest (0.002574s)
+[2018.07.09-23.01.35:757][748]LogInit: XAudio2 using 'Speakers (ASUS ROG Spitfire)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.09-23.01.35:761][748]LogInit: FAudioDevice initialized.
+[2018.07.09-23.01.35:796][748]LogLoad: Game class is 'GameModeBase'
+[2018.07.09-23.01.35:798][748]LogWorld: Bringing World /Game/_Levels/UEDPIE_0_SprintTest.SprintTest up for play (max tick rate 0) at 2018.07.10-01.01.35
+[2018.07.09-23.01.35:798][748]LogWorld: Bringing up level for play took: 0.001047
+[2018.07.09-23.01.35:800][748]PIE: Play in editor start time for /Game/_Levels/UEDPIE_0_SprintTest -0.747
+[2018.07.09-23.01.47:849][753]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.09-23.01.49:671][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Levels/SprintTest" FILE="../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.09-23.01.49:706][955]LogSavePackage: Save=14.30ms
+[2018.07.09-23.01.49:706][955]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/SprintTestE7156D8C428EE91D42330AA32A3F8D50.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap'
+[2018.07.09-23.01.49:707][955]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/_Levels/SprintTest.umap
+[2018.07.09-23.01.49:720][955]LogFileHelpers: Saving map 'SprintTest' took 0.077

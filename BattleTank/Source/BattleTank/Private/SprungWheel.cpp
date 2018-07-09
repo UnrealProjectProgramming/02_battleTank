@@ -13,19 +13,12 @@ ASprungWheel::ASprungWheel()
 	PrimaryActorTick.bCanEverTick = true;
 
 	PhysicsConstraint = CreateDefaultSubobject<UPhysicsConstraintComponent>(FName("Physics Constraint"));
-	Wheel = CreateDefaultSubobject<UStaticMeshComponent>(FName("Wheel"));
-	Mass = CreateDefaultSubobject<UStaticMeshComponent>(FName("Mass"));
-
 	RootComponent = PhysicsConstraint;
+
+	Wheel = CreateDefaultSubobject<UStaticMeshComponent>(FName("Wheel"));
 	Wheel->SetupAttachment(PhysicsConstraint);
-	Mass->SetupAttachment(PhysicsConstraint);
-
 	Wheel->SetSimulatePhysics(true);	
-	Mass->SetSimulatePhysics(true);
 
-	// TODO fix and read https://answers.unrealengine.com/questions/395040/c-added-component-have-missing-transform-tool.html
-	PhysicsConstraint->ComponentName1.ComponentName = FName(*(Mass->GetName()));
-	PhysicsConstraint->ComponentName2.ComponentName = FName(*(Wheel->GetName()));
 
 	PhysicsConstraint->SetLinearXLimit(ELinearConstraintMotion::LCM_Locked, 0.0f);
 	PhysicsConstraint->SetLinearYLimit(ELinearConstraintMotion::LCM_Locked, 0.0f);
@@ -41,15 +34,7 @@ ASprungWheel::ASprungWheel()
 void ASprungWheel::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	if (GetAttachParentActor())
-	{
-		UE_LOG(LogTemp, Warning, TEXT("NOT NULL: %s"), *GetAttachParentActor()->GetName());
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("NULL"));
-	}
+	SetupSuspension();
 }
 
 // Called every frame
@@ -57,5 +42,13 @@ void ASprungWheel::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ASprungWheel::SetupSuspension()
+{
+	if (!GetAttachParentActor()) { return; }
+	UPrimitiveComponent* RootComponent = Cast<UPrimitiveComponent>(GetAttachParentActor()->GetRootComponent());
+	if (!RootComponent) { return; }
+	PhysicsConstraint->SetConstrainedComponents(RootComponent, NAME_None, Wheel, NAME_None);
 }
 
