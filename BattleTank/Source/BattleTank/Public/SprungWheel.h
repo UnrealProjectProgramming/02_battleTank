@@ -42,4 +42,10 @@ protected:
 
 private:
 	void SetupSuspension();
+	void ApplyForce();
+
+	UFUNCTION() // This is a dynamic Delegate so we must put UFUNCTION SO IT CAN WORKK !!!!
+	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+	float TotalForceMagnitudeThisFrame = 0.0f;
 };
