@@ -26,10 +26,17 @@ public:
 protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Custom Physics Constraint")
-	UPhysicsConstraintComponent* PhysicsConstraint = nullptr;
+	UPhysicsConstraintComponent* MassWheelConstraint = nullptr;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Custom Physics Constraint")
-	UStaticMeshComponent* Wheel = nullptr;	
+	UPhysicsConstraintComponent* AxleWheelConstraint = nullptr;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Custom Physics Constraint")
+	USphereComponent* Wheel = nullptr;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Custom Physics Constraint")
+	USphereComponent* Axle = nullptr;
+
 
 private:
 	void SetupSuspension();
