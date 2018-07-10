@@ -1,12 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading BattleTankEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Performing 3 actions (9 in parallel)
-  SprungWheel.cpp
-N:\Programming\Unreal\02_battleTank\BattleTank\Source\BattleTank\Private\SprungWheel.cpp(64): warning C4458: declaration of 'RootComponent' hides class member
-  N:\Program Files\EpicGames\UE_4.19\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(496): note: see declaration of 'AActor::RootComponent'
-  [2/3] Link UE4Editor-BattleTank-8103.dll
-  [3/3] Link UE4Editor-BattleTank-8103.lib
-     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-8103.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-8103.exp
-     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-8103.suppressed.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-8103.suppressed.exp
+  TankTrack.cpp
+  [2/3] Link UE4Editor-BattleTank-377.dll
+  [3/3] Link UE4Editor-BattleTank-377.lib
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-377.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-377.exp
+     Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-377.suppressed.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleTank-377.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 1.76 seconds (Local executor: 1.12 seconds)
+  Total build time: 6.16 seconds (Local executor: 3.02 seconds)
