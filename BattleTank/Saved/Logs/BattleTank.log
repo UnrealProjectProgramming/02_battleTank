@@ -26392,3 +26392,22 @@ Scale3D: 1.000000 1.000000 1.000000
 [2018.07.11-00.53.23:600][774]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/_Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/_Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
 [2018.07.11-00.53.27:671][256]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.07.11-01.02.19:301][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.11-01.08.04:341][116]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2018.07.11-01.08.04:453][116]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.11-01.08.06:067][117]LogRenderer: Reallocating scene render targets to support 1912x1284 Format 10 NumSamples 1 (Frame:1).
+[2018.07.11-01.08.08:627][379]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.11-01.08.10:066][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.11-01.08.11:054][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.11-01.08.14:352][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.11-01.08.17:025][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.11-01.08.20:336][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.11-01.08.20:488][767]LogSavePackage: Save=19.57ms
+[2018.07.11-01.08.20:488][767]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Turret_fancy_export_scaled_turreDE869151487543DA36EE0B971252B38A.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Mortar/Turret_fancy_export_scaled_turret.uasset'
+[2018.07.11-01.08.20:489][767]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Mortar/Turret_fancy_export_scaled_turret.uasset
+[2018.07.11-01.08.21:464][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.11-01.08.40:624][124]LogSavePackage: Save=7.48ms
+[2018.07.11-01.08.40:624][124]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Turret_fancy_export_scaled_barreF4966B4A4F3D479A1A66E785C81CBD7D.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Mortar/Turret_fancy_export_scaled_barrel.uasset'
+[2018.07.11-01.08.40:625][124]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Mortar/Turret_fancy_export_scaled_barrel.uasset
+[2018.07.11-01.08.41:120][182]LogSavePackage: Save=1.56ms
+[2018.07.11-01.08.41:120][182]LogSavePackage: Moving '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Saved/Turret_fancy_export_scaled_barreBD836A8640DC07A681FB5EB1A03FC904.tmp' to '../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Mortar/Turret_fancy_export_scaled_barrel.uasset'
+[2018.07.11-01.08.41:120][182]LogSavePackage: Display: Finished SavePackage ../../../../../../Programming/Unreal/02_battleTank/BattleTank/Content/Mortar/Turret_fancy_export_scaled_barrel.uasset
