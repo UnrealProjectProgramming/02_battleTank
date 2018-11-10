@@ -1,4 +1,4 @@
-// Copyright EmbraceIT Ltd.
+// Mazen Morgan
 
 #include "BattleTank.h"
 #include "TankTrack.h"

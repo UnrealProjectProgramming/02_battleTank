@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
@@ -52,21 +52,19 @@ struct FHitResult;
 #define BattleTank_Source_BattleTank_Public_Projectile_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_AProjectile(); \
+	friend struct Z_Construct_UClass_AProjectile_Statics; \
 public: \
-	DECLARE_CLASS(AProjectile, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(AProjectile) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AProjectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(AProjectile)
 
 
 #define BattleTank_Source_BattleTank_Public_Projectile_h_11_INCLASS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_AProjectile(); \
+	friend struct Z_Construct_UClass_AProjectile_Statics; \
 public: \
-	DECLARE_CLASS(AProjectile, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(AProjectile) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AProjectile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(AProjectile)
 
 
 #define BattleTank_Source_BattleTank_Public_Projectile_h_11_STANDARD_CONSTRUCTORS \

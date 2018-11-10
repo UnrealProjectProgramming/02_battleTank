@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UTankBarrel;
@@ -76,21 +76,19 @@ class UTankTurret;
 #define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_27_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankAimingComponent(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_UTankAimingComponent(); \
+	friend struct Z_Construct_UClass_UTankAimingComponent_Statics; \
 public: \
-	DECLARE_CLASS(UTankAimingComponent, UActorComponent, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(UTankAimingComponent) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UTankAimingComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(UTankAimingComponent)
 
 
 #define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_27_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankAimingComponent(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_UTankAimingComponent(); \
+	friend struct Z_Construct_UClass_UTankAimingComponent_Statics; \
 public: \
-	DECLARE_CLASS(UTankAimingComponent, UActorComponent, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(UTankAimingComponent) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UTankAimingComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(UTankAimingComponent)
 
 
 #define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_27_STANDARD_CONSTRUCTORS \

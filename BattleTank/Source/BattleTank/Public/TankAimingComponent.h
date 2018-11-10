@@ -1,4 +1,4 @@
-// Copyright EmbraceIT Ltd.
+// Mazen Morgan
 
 #pragma once
 

@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef BATTLETANK_Tank_generated_h
@@ -45,21 +45,19 @@ static inline void FTankDelegate_DelegateWrapper(const FMulticastScriptDelegate&
 #define BattleTank_Source_BattleTank_Public_Tank_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATank(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_ATank(); \
+	friend struct Z_Construct_UClass_ATank_Statics; \
 public: \
-	DECLARE_CLASS(ATank, APawn, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(ATank) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ATank, APawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(ATank)
 
 
 #define BattleTank_Source_BattleTank_Public_Tank_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesATank(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_ATank(); \
+	friend struct Z_Construct_UClass_ATank_Statics; \
 public: \
-	DECLARE_CLASS(ATank, APawn, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(ATank) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ATank, APawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(ATank)
 
 
 #define BattleTank_Source_BattleTank_Public_Tank_h_13_STANDARD_CONSTRUCTORS \

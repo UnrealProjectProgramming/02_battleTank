@@ -1,4 +1,4 @@
-// Morgan
+// Mazen Morgan
 
 #include "BattleTank.h"
 #include "SpawnPoint.h"

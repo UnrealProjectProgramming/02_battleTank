@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef BATTLETANK_TankBarrel_generated_h
@@ -18,21 +18,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BattleTank_Source_BattleTank_Public_TankBarrel_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankBarrel(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_UTankBarrel(); \
+	friend struct Z_Construct_UClass_UTankBarrel_Statics; \
 public: \
-	DECLARE_CLASS(UTankBarrel, UStaticMeshComponent, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(UTankBarrel) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UTankBarrel, UStaticMeshComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(UTankBarrel)
 
 
 #define BattleTank_Source_BattleTank_Public_TankBarrel_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankBarrel(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_UTankBarrel(); \
+	friend struct Z_Construct_UClass_UTankBarrel_Statics; \
 public: \
-	DECLARE_CLASS(UTankBarrel, UStaticMeshComponent, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(UTankBarrel) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UTankBarrel, UStaticMeshComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(UTankBarrel)
 
 
 #define BattleTank_Source_BattleTank_Public_TankBarrel_h_14_STANDARD_CONSTRUCTORS \

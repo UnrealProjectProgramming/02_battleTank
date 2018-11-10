@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef BATTLETANK_TankAIController_generated_h
@@ -38,21 +38,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BattleTank_Source_BattleTank_Public_TankAIController_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATankAIController(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_ATankAIController(); \
+	friend struct Z_Construct_UClass_ATankAIController_Statics; \
 public: \
-	DECLARE_CLASS(ATankAIController, AAIController, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(ATankAIController) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ATankAIController, AAIController, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(ATankAIController)
 
 
 #define BattleTank_Source_BattleTank_Public_TankAIController_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesATankAIController(); \
-	friend BATTLETANK_API class UClass* Z_Construct_UClass_ATankAIController(); \
+	friend struct Z_Construct_UClass_ATankAIController_Statics; \
 public: \
-	DECLARE_CLASS(ATankAIController, AAIController, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/BattleTank"), NO_API) \
-	DECLARE_SERIALIZER(ATankAIController) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ATankAIController, AAIController, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/BattleTank"), NO_API) \
+	DECLARE_SERIALIZER(ATankAIController)
 
 
 #define BattleTank_Source_BattleTank_Public_TankAIController_h_14_STANDARD_CONSTRUCTORS \

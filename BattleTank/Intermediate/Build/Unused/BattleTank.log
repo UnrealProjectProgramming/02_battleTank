@@ -1,5 +1,44 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿  Using 'git status' to determine working set for adaptive non-unity build (N:\Programming\Unreal\02_battleTank).
+  Creating makefile for hot reloading BattleTankEditor (changes to target files)
   Compiling game modules for hot reload
-  Target is up to date
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+N:\Programming\Unreal\02_battleTank\BattleTank\Source\BattleTank\BattleTank.Build.cs : warning : Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "BattleTank.h") from UE 4.21 onwards.
+  Parsing headers for BattleTankEditor
+    Running UnrealHeaderTool "N:\Programming\Unreal\02_battleTank\BattleTank\BattleTank.uproject" "N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleTankEditor in 8.4267799 seconds
+  Building 29 actions with 12 processes...
+    [1/29] PCH.BattleTank.cpp
+    [2/29] BattleTank.init.gen.cpp
+    [3/29] SpawnPoint.gen.cpp
+    [4/29] TankBarrel.gen.cpp
+    [5/29] SprungWheel.gen.cpp
+    [6/29] BattleTankGameMode.gen.cpp
+    [7/29] Projectile.gen.cpp
+    [8/29] TankMovementComponent.gen.cpp
+    [9/29] Tank.gen.cpp
+    [10/29] TankPlayerController.gen.cpp
+    [11/29] TankAimingComponent.gen.cpp
+    [12/29] TankTrack.gen.cpp
+    [13/29] TankBarrel.cpp
+    [14/29] TankMovementComponent.cpp
+    [15/29] Tank.cpp
+    [16/29] SpawnPoint.cpp
+    [17/29] BattleTankGameMode.cpp
+    [18/29] TankPlayerController.cpp
+    [19/29] TankAimingComponent.cpp
+    [20/29] SprungWheel.cpp
+N:\Programming\Unreal\02_battleTank\BattleTank\Source\BattleTank\Private\SprungWheel.cpp(75): warning C4458: declaration of 'RootComponent' hides class member
+    N:\Program Files\EpicGames\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(533): note: see declaration of 'AActor::RootComponent'
+    [21/29] BattleTank.cpp
+    [22/29] TankTrack.cpp
+    [23/29] Projectile.cpp
+    [24/29] TankTurret.cpp
+    [25/29] TankAIController.gen.cpp
+    [26/29] TankTurret.gen.cpp
+    [27/29] TankAIController.cpp
+    [28/29] UE4Editor-BattleTank-7857.lib
+       Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-7857.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-7857.exp
+    [29/29] UE4Editor-BattleTank-7857.dll
+       Creating library N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-7857.suppressed.lib and object N:\Programming\Unreal\02_battleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-7857.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 0.85 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 46.64 seconds (Parallel executor: 35.01 seconds)
