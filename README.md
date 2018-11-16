@@ -11,7 +11,7 @@
 ### Video that shows the suspension if you can notice the red spheres in the video as shown
 [Suspension Video](https://youtu.be/-Lkt91LC2NI)
 
-![Alt Text](https://imgur.com/a/tY05Kjv)
+![Alt Text](https://imgur.com/a/5MaQZoZ)
 
 ### Control Support
 
