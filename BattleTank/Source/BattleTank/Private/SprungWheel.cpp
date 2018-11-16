@@ -84,7 +84,8 @@ void ASprungWheel::AddDrivingForce(float ForceMagnitude)
 	TotalForceMagnitudeThisFrame += ForceMagnitude;
 }
 
-void ASprungWheel::OnHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
+void ASprungWheel::OnHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, 
+						 UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
 {
 	ApplyForce();
 }
